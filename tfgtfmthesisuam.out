@@ -17,51 +17,52 @@
 \BOOKMARK [1][-]{section.2.8}{Bibliografía}{chapter.2}% 17
 \BOOKMARK [0][-]{chapter.3}{Metodología}{}% 18
 \BOOKMARK [1][-]{section.3.1}{Obtención de la base experimental.}{chapter.3}% 19
-\BOOKMARK [0][-]{chapter.4}{Primeros pasos}{}% 20
-\BOOKMARK [1][-]{section.4.1}{Estructurar el documento}{chapter.4}% 21
-\BOOKMARK [2][-]{subsection.4.1.1}{Organización de LaTeX2e}{section.4.1}% 22
-\BOOKMARK [2][-]{subsection.4.1.2}{Organización de la documentación}{section.4.1}% 23
-\BOOKMARK [2][-]{subsection.4.1.3}{Otros elementos de la estructura del documento}{section.4.1}% 24
-\BOOKMARK [1][-]{section.4.2}{Enlazar la bibliografía}{chapter.4}% 25
-\BOOKMARK [0][-]{chapter.5}{Elementos internos}{}% 26
-\BOOKMARK [1][-]{section.5.1}{Figuras}{chapter.5}% 27
-\BOOKMARK [2][-]{subsection.5.1.1}{Gráficas}{section.5.1}% 28
-\BOOKMARK [2][-]{subsection.5.1.2}{Gráficas con pgfplots}{section.5.1}% 29
-\BOOKMARK [2][-]{subsection.5.1.3}{Gráficas con gnuplot}{section.5.1}% 30
-\BOOKMARK [2][-]{subsection.5.1.4}{Imágenes}{section.5.1}% 31
-\BOOKMARK [2][-]{subsection.5.1.5}{Diagramas de Gantt}{section.5.1}% 32
-\BOOKMARK [1][-]{section.5.2}{Tablas}{chapter.5}% 33
-\BOOKMARK [2][-]{subsection.5.2.1}{Presupuestos}{section.5.2}% 34
-\BOOKMARK [1][-]{section.5.3}{Cuadros de texto}{chapter.5}% 35
-\BOOKMARK [1][-]{section.5.4}{Ecuaciones}{chapter.5}% 36
-\BOOKMARK [1][-]{section.5.5}{Código}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.6}{Algoritmos}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.7}{Listas}{chapter.5}% 39
-\BOOKMARK [2][-]{subsection.5.7.1}{Listas tradicionales de LaTeX2e}{section.5.7}% 40
-\BOOKMARK [2][-]{subsection.5.7.2}{Nuevos tipos de listas}{section.5.7}% 41
-\BOOKMARK [1][-]{section.5.8}{Referencias internas e hiperenlaces}{chapter.5}% 42
-\BOOKMARK [0][-]{chapter.6}{Compilación}{}% 43
-\BOOKMARK [1][-]{section.6.1}{Pdflatex}{chapter.6}% 44
-\BOOKMARK [1][-]{section.6.2}{Arara}{chapter.6}% 45
-\BOOKMARK [1][-]{section.6.3}{Overleaf}{chapter.6}% 46
-\BOOKMARK [1][-]{section.6.4}{Permitir el uso de la shell al compilador}{chapter.6}% 47
-\BOOKMARK [0][-]{chapter*.38}{Bibliografía}{}% 48
-\BOOKMARK [-1][-]{part.1}{Apéndices}{}% 49
-\BOOKMARK [0][-]{appendix.Alph1}{Word\256 vs. LaTeX2e}{part.1}% 50
-\BOOKMARK [1][-]{section.Alph1.1}{Ventajas e inconvenientes de LaTeX2e}{appendix.Alph1}% 51
-\BOOKMARK [1][-]{section.Alph1.2}{Ventajas e inconvenientes de Word\256}{appendix.Alph1}% 52
-\BOOKMARK [1][-]{section.Alph1.3}{¿Cuál elijo?}{appendix.Alph1}% 53
-\BOOKMARK [0][-]{appendix.Alph2}{Instalación}{part.1}% 54
-\BOOKMARK [1][-]{section.Alph2.1}{Linux}{appendix.Alph2}% 55
-\BOOKMARK [1][-]{section.Alph2.2}{Windows\222}{appendix.Alph2}% 56
-\BOOKMARK [1][-]{section.Alph2.3}{Mac OS X}{appendix.Alph2}% 57
-\BOOKMARK [1][-]{section.Alph2.4}{Overleaf o ShareLatex}{appendix.Alph2}% 58
-\BOOKMARK [1][-]{section.Alph2.5}{¿Dónde está el manual?}{appendix.Alph2}% 59
-\BOOKMARK [1][-]{section.Alph2.6}{Corrección ortográfica y codificación de caracteres}{appendix.Alph2}% 60
-\BOOKMARK [1][-]{section.Alph2.7}{¿Qué editor utilizo?}{appendix.Alph2}% 61
-\BOOKMARK [0][-]{appendix.Alph3}{Packetes incluidos}{part.1}% 62
-\BOOKMARK [0][-]{appendix.Alph4}{Resumen de opciones del estilo}{part.1}% 63
-\BOOKMARK [0][-]{appendix.Alph5}{Funciones y entornos}{part.1}% 64
-\BOOKMARK [1][-]{section.Alph5.1}{Comandos en el preámbulo}{appendix.Alph5}% 65
-\BOOKMARK [1][-]{section.Alph5.2}{Commandos en el cuerpo del texto}{appendix.Alph5}% 66
-\BOOKMARK [1][-]{section.Alph5.3}{Entornos}{appendix.Alph5}% 67
+\BOOKMARK [1][-]{section.3.2}{Extracción de nuevas características.}{chapter.3}% 20
+\BOOKMARK [0][-]{chapter.4}{Primeros pasos}{}% 21
+\BOOKMARK [1][-]{section.4.1}{Estructurar el documento}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.1.1}{Organización de LaTeX2e}{section.4.1}% 23
+\BOOKMARK [2][-]{subsection.4.1.2}{Organización de la documentación}{section.4.1}% 24
+\BOOKMARK [2][-]{subsection.4.1.3}{Otros elementos de la estructura del documento}{section.4.1}% 25
+\BOOKMARK [1][-]{section.4.2}{Enlazar la bibliografía}{chapter.4}% 26
+\BOOKMARK [0][-]{chapter.5}{Elementos internos}{}% 27
+\BOOKMARK [1][-]{section.5.1}{Figuras}{chapter.5}% 28
+\BOOKMARK [2][-]{subsection.5.1.1}{Gráficas}{section.5.1}% 29
+\BOOKMARK [2][-]{subsection.5.1.2}{Gráficas con pgfplots}{section.5.1}% 30
+\BOOKMARK [2][-]{subsection.5.1.3}{Gráficas con gnuplot}{section.5.1}% 31
+\BOOKMARK [2][-]{subsection.5.1.4}{Imágenes}{section.5.1}% 32
+\BOOKMARK [2][-]{subsection.5.1.5}{Diagramas de Gantt}{section.5.1}% 33
+\BOOKMARK [1][-]{section.5.2}{Tablas}{chapter.5}% 34
+\BOOKMARK [2][-]{subsection.5.2.1}{Presupuestos}{section.5.2}% 35
+\BOOKMARK [1][-]{section.5.3}{Cuadros de texto}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.4}{Ecuaciones}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.5}{Código}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.6}{Algoritmos}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.7}{Listas}{chapter.5}% 40
+\BOOKMARK [2][-]{subsection.5.7.1}{Listas tradicionales de LaTeX2e}{section.5.7}% 41
+\BOOKMARK [2][-]{subsection.5.7.2}{Nuevos tipos de listas}{section.5.7}% 42
+\BOOKMARK [1][-]{section.5.8}{Referencias internas e hiperenlaces}{chapter.5}% 43
+\BOOKMARK [0][-]{chapter.6}{Compilación}{}% 44
+\BOOKMARK [1][-]{section.6.1}{Pdflatex}{chapter.6}% 45
+\BOOKMARK [1][-]{section.6.2}{Arara}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.3}{Overleaf}{chapter.6}% 47
+\BOOKMARK [1][-]{section.6.4}{Permitir el uso de la shell al compilador}{chapter.6}% 48
+\BOOKMARK [0][-]{chapter*.38}{Bibliografía}{}% 49
+\BOOKMARK [-1][-]{part.1}{Apéndices}{}% 50
+\BOOKMARK [0][-]{appendix.Alph1}{Word\256 vs. LaTeX2e}{part.1}% 51
+\BOOKMARK [1][-]{section.Alph1.1}{Ventajas e inconvenientes de LaTeX2e}{appendix.Alph1}% 52
+\BOOKMARK [1][-]{section.Alph1.2}{Ventajas e inconvenientes de Word\256}{appendix.Alph1}% 53
+\BOOKMARK [1][-]{section.Alph1.3}{¿Cuál elijo?}{appendix.Alph1}% 54
+\BOOKMARK [0][-]{appendix.Alph2}{Instalación}{part.1}% 55
+\BOOKMARK [1][-]{section.Alph2.1}{Linux}{appendix.Alph2}% 56
+\BOOKMARK [1][-]{section.Alph2.2}{Windows\222}{appendix.Alph2}% 57
+\BOOKMARK [1][-]{section.Alph2.3}{Mac OS X}{appendix.Alph2}% 58
+\BOOKMARK [1][-]{section.Alph2.4}{Overleaf o ShareLatex}{appendix.Alph2}% 59
+\BOOKMARK [1][-]{section.Alph2.5}{¿Dónde está el manual?}{appendix.Alph2}% 60
+\BOOKMARK [1][-]{section.Alph2.6}{Corrección ortográfica y codificación de caracteres}{appendix.Alph2}% 61
+\BOOKMARK [1][-]{section.Alph2.7}{¿Qué editor utilizo?}{appendix.Alph2}% 62
+\BOOKMARK [0][-]{appendix.Alph3}{Packetes incluidos}{part.1}% 63
+\BOOKMARK [0][-]{appendix.Alph4}{Resumen de opciones del estilo}{part.1}% 64
+\BOOKMARK [0][-]{appendix.Alph5}{Funciones y entornos}{part.1}% 65
+\BOOKMARK [1][-]{section.Alph5.1}{Comandos en el preámbulo}{appendix.Alph5}% 66
+\BOOKMARK [1][-]{section.Alph5.2}{Commandos en el cuerpo del texto}{appendix.Alph5}% 67
+\BOOKMARK [1][-]{section.Alph5.3}{Entornos}{appendix.Alph5}% 68
