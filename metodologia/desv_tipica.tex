@@ -1,0 +1,8 @@
+Mientras que la media de las entropías de los paquetes del flujo representa el nivel medio de aleatoriedad en el contenido de estos, la desviación típica de la entropía de los paquetes de un flujo indica si los paquetes presentan entropías homogéneas entre sí, es decir, mide su dispersión. Para obtener este valor se utiliza la siguiente expresión:
+\begin{equation}[eq:desviacion-entropia-paquete-flujo]{Desviación típica de la entropía por paquete del flujo}
+\sigma_H = \sqrt{\frac{1}{n}\sum_{i=1}^{n}\left(H_i - \overline{H}\right)^2}
+\end{equation}donde $n$ es el número de paquetes del flujo, $H_i$ es la entropía del paquete $i$ y $\overline{H}$ es la media de las entropías de los paquetes del flujo.
+
+Un valor bajo de $\sigma_H$ indica que los paquetes del flujo presentan niveles de entropía similares, mientras que un valor alto refleja una alta variación en los valores de la entropía de estos. Como $0 \leq H(X) \leq 8$, los valores de la desviación típica quedarán acotados por $0 \leq \sigma_H \leq 4$.
+
+Esta característica complementa a la media, ya que dos flujos con la misma entropía media pueden diferenciarse por la dispersión de la complejidad de cada paquete. Por ejemplo, si tenemos un flujo $F_A$ con 2 paquetes cuyas entropías son $H_1 = 4$ y $H_2 = 4$ y un flujo $F_B$ con 2 paquetes cuyas entropías son $H_1 = 8$ y $H_2 = 4$, para ambos flujos $\overline{H} = 4$. No obstante, si sustituimos en la expresión de la desviación típica para cada uno de estos, obtenemos que para $F_1$: $\sigma_H = \sqrt{\frac{(4-4)^2 + (4-4)^2}{2}} = \sqrt{\frac{0+0}{2}} = \sqrt{0} = 0$ y para $F_2$: $\sigma_H = \sqrt{\frac{(0-4)^2 + (8-4)^2}{2}} = \sqrt{\frac{16+16}{2}} = \sqrt{16} = 4$
