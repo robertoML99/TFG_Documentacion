@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  6 APR 2026 19:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  6 APR 2026 19:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1316,9 +1316,9 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-2026461170.tex)...disabled (restricted).
+runsystem(touch w18-test-2026461178.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-2026461170.tex)...disabled (restricted).
+runsystem(rm -f w18-test-2026461178.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
@@ -3504,12 +3504,10 @@ Package cleveref Info: loaded `spanish' language definitions on input line 2.
 (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
-) (./metodologia/desv_tipica.tex)
-Underfull \vbox (badness 1122) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 69.
-LaTeX Info: Redefining \% on input line 69.
-Package cleveref Info: loaded `spanish' language definitions on input line 69.
+) (./metodologia/desv_tipica.tex
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+Package cleveref Info: loaded `spanish' language definitions on input line 7.
 \openout6 = `tfgtfmthesisuam.mw'.
 
  [16]
@@ -3524,6 +3522,7 @@ Package cleveref Info: loaded `spanish' language definitions on input line 69.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
+)
 LaTeX Info: Redefining \. on input line 70.
 LaTeX Info: Redefining \% on input line 70.
 Package cleveref Info: loaded `spanish' language definitions on input line 70.
@@ -3538,7 +3537,6 @@ Package cleveref Info: loaded `spanish' language definitions on input line 70.
 
 ] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
-
 
 Cap\'{\i }tulo 4.
 (./primpas/primpas.tex) (./primpas/estructuradoc.tex
@@ -6030,7 +6028,7 @@ share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmr8a.pfb>
-Output written on tfgtfmthesisuam.pdf (84 pages, 1840439 bytes).
+Output written on tfgtfmthesisuam.pdf (84 pages, 1840651 bytes).
 PDF statistics:
  1238 PDF objects out of 1440 (max. 8388607)
  1062 compressed objects within 11 object streams
