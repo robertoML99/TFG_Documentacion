@@ -9,6 +9,7 @@
 \contentsline {table}{\hbox to\@tempdima {3.1\hfil } Entropía de Shannon\relax }{14}{equation.3.2.1}%
 \contentsline {table}{\hbox to\@tempdima {3.2\hfil } Probabilidad estimada de aparicion de un byte en el payload\relax }{15}{equation.3.2.2}%
 \contentsline {table}{\hbox to\@tempdima {3.3\hfil } Entropía de Shannon de un paquete/flujo\relax }{15}{equation.3.2.3}%
+\contentsline {table}{\hbox to\@tempdima {3.5\hfil } Entropía media por paquete del flujo\relax }{15}{equation.3.2.5}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\hbox to\@tempdima {5.1\hfil } Esto es un ejemplo de titulo de ecuación incluida la propia ecuación $\DOTSB \sum@ \slimits@ c_{ij}= \frac {a}{\DOTSI \intop \ilimits@ a dx} $\relax }{31}{equation.5.4.1}%

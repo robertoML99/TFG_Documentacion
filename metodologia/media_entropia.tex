@@ -1,0 +1,9 @@
+La primera característica derivada de la entropía de Shannon es la media de entropía de los paquetes del flujo. Esta se obtiene a partir de la siguiente expresión:
+\begin{equation}[eq:entropia-media-paquete-flujo]{Entropía media por paquete del flujo}
+\overline{H} = \frac{1}{n}\sum_{i=1}^{n} H_i
+\end{equation}donde $n$ es el número de paquetes del flujo y $H_i$ la entropía del paquete $i$.
+
+Esta característica permite obtener una representación de la media de variabilidad de los bytes de cada paquete del flujo, es decir, describe el promedio de aleatoriedad de los paquetes. El valor de la media estará comprendido entre $0 \leq \overline{H} \leq 8$, alcanzando el valor mínimo cuando la entropía de cada paquete sea nula y el valor máximo cuando la entropía de cada paquete sea máxima. Al ser una media aritmética simple, todos los paquetes tienen el mismo valor, sin importar el tamaño de estos.
+
+Se podría pensar que este valor es equivalente a la entropía total del flujo, pero con un ejemplo simple puede verse que no. Dado un flujo con 2 paquetes: $P_1$, en el que todos los bytes son $00$ y $P_2$, en el que todos los bytes son $FF$, se tiene que $H_1 = 0$ y $H_2 = 0$. Sustituyendo en la expresión de cálculo de la media se obtiene: $\overline{H} = \frac{0 + 0}{2} = 0$. Ahora bien, si se opera en flujo, se tiene un flujo con la mitad de bytes $00$ y la otra mitad $FF$, y sustituyendo en la ecuación [\ref{eq:shannon}] se obtiene $H(X) = -0.5 \log_{2}(0.5) - 0.5 \log_{2}(0.5) = 1$.
+
