@@ -1,0 +1,10 @@
+El objetivo de incluir esta característica es el de identificar el extremo más elevado en la aleatoriedad del payload de un paquete dentro de un flujo. Para obtenerla, se calcula la entropía de cada paquete y se selecciona la de mayor valor:
+\begin{equation}[eq:maximo-entropia-paquete-flujo]{Entropía máxima por paquete del flujo}
+H_{\max} = \max(H_1, H_2, \ldots, H_n)
+\end{equation},donde $n$ representa el número de paquetes que contiene el flujo.
+
+Se decidió incluir esta característica ya que un flujo puede contener paquetes puntuales cuyo payload puede tener una gran aleatoriedad mientras el resto tiene una baja o nula entropía. Si hubiera un gran número de paquetes con baja entropía en ese flujo podría pasar desapercibida esta información.
+
+Como $0 \leq H_i \leq 8$ es obvio que $0 \leq H_{\max} \leq 8$. El valor mínimo se alcanza cuando todos los paquetes tienen entropía nula y el máximo cuando para un paquete $H_i = 8$.
+
+Cabe destacar que no se incluyó una característica para el mínimo de entropía debido a que, cuando un paquete de un flujo no tiene un payload válido, $H_i = 0$, lo cual no sería del todo representativo.

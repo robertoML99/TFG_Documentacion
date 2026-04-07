@@ -1,71 +1,31 @@
-\BOOKMARK [0][-]{chapter.1}{Estética}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Tipo de documento}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Gama de colores}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{Colores}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.4}{Uso de los colores}{chapter.1}% 5
-\BOOKMARK [0][-]{chapter.2}{Estructura}{}% 6
-\BOOKMARK [1][-]{section.2.1}{Título, autor, tutor y otras variables}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.2}{Índices}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.3}{Copyright, dedicatoria y cita inicial}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.4}{Prefacio, resumen ...}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.5}{Partes, capítulos ...}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.6}{Glosario, acrónimos y definiciones}{chapter.2}% 12
-\BOOKMARK [2][-]{subsection.2.6.1}{Glosario}{section.2.6}% 13
-\BOOKMARK [2][-]{subsection.2.6.2}{Acronimos}{section.2.6}% 14
-\BOOKMARK [2][-]{subsection.2.6.3}{Definiciones}{section.2.6}% 15
-\BOOKMARK [1][-]{section.2.7}{Referencias}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.8}{Bibliografía}{chapter.2}% 17
-\BOOKMARK [0][-]{chapter.3}{Metodología}{}% 18
-\BOOKMARK [1][-]{section.3.1}{Obtención de la base experimental.}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.2}{Extracción de nuevas características.}{chapter.3}% 20
-\BOOKMARK [2][-]{subsection.3.2.1}{Entropía del flujo completo}{section.3.2}% 21
-\BOOKMARK [2][-]{subsection.3.2.2}{Entropía media de los paquetes pertenecientes a un flujo}{section.3.2}% 22
-\BOOKMARK [2][-]{subsection.3.2.3}{Desviación típica de la entropía de los paquetes pertenecientes a un flujo}{section.3.2}% 23
-\BOOKMARK [0][-]{chapter.4}{Primeros pasos}{}% 24
-\BOOKMARK [1][-]{section.4.1}{Estructurar el documento}{chapter.4}% 25
-\BOOKMARK [2][-]{subsection.4.1.1}{Organización de LaTeX2e}{section.4.1}% 26
-\BOOKMARK [2][-]{subsection.4.1.2}{Organización de la documentación}{section.4.1}% 27
-\BOOKMARK [2][-]{subsection.4.1.3}{Otros elementos de la estructura del documento}{section.4.1}% 28
-\BOOKMARK [1][-]{section.4.2}{Enlazar la bibliografía}{chapter.4}% 29
-\BOOKMARK [0][-]{chapter.5}{Elementos internos}{}% 30
-\BOOKMARK [1][-]{section.5.1}{Figuras}{chapter.5}% 31
-\BOOKMARK [2][-]{subsection.5.1.1}{Gráficas}{section.5.1}% 32
-\BOOKMARK [2][-]{subsection.5.1.2}{Gráficas con pgfplots}{section.5.1}% 33
-\BOOKMARK [2][-]{subsection.5.1.3}{Gráficas con gnuplot}{section.5.1}% 34
-\BOOKMARK [2][-]{subsection.5.1.4}{Imágenes}{section.5.1}% 35
-\BOOKMARK [2][-]{subsection.5.1.5}{Diagramas de Gantt}{section.5.1}% 36
-\BOOKMARK [1][-]{section.5.2}{Tablas}{chapter.5}% 37
-\BOOKMARK [2][-]{subsection.5.2.1}{Presupuestos}{section.5.2}% 38
-\BOOKMARK [1][-]{section.5.3}{Cuadros de texto}{chapter.5}% 39
-\BOOKMARK [1][-]{section.5.4}{Ecuaciones}{chapter.5}% 40
-\BOOKMARK [1][-]{section.5.5}{Código}{chapter.5}% 41
-\BOOKMARK [1][-]{section.5.6}{Algoritmos}{chapter.5}% 42
-\BOOKMARK [1][-]{section.5.7}{Listas}{chapter.5}% 43
-\BOOKMARK [2][-]{subsection.5.7.1}{Listas tradicionales de LaTeX2e}{section.5.7}% 44
-\BOOKMARK [2][-]{subsection.5.7.2}{Nuevos tipos de listas}{section.5.7}% 45
-\BOOKMARK [1][-]{section.5.8}{Referencias internas e hiperenlaces}{chapter.5}% 46
-\BOOKMARK [0][-]{chapter.6}{Compilación}{}% 47
-\BOOKMARK [1][-]{section.6.1}{Pdflatex}{chapter.6}% 48
-\BOOKMARK [1][-]{section.6.2}{Arara}{chapter.6}% 49
-\BOOKMARK [1][-]{section.6.3}{Overleaf}{chapter.6}% 50
-\BOOKMARK [1][-]{section.6.4}{Permitir el uso de la shell al compilador}{chapter.6}% 51
-\BOOKMARK [0][-]{chapter*.39}{Bibliografía}{}% 52
-\BOOKMARK [-1][-]{part.1}{Apéndices}{}% 53
-\BOOKMARK [0][-]{appendix.Alph1}{Word\256 vs. LaTeX2e}{part.1}% 54
-\BOOKMARK [1][-]{section.Alph1.1}{Ventajas e inconvenientes de LaTeX2e}{appendix.Alph1}% 55
-\BOOKMARK [1][-]{section.Alph1.2}{Ventajas e inconvenientes de Word\256}{appendix.Alph1}% 56
-\BOOKMARK [1][-]{section.Alph1.3}{¿Cuál elijo?}{appendix.Alph1}% 57
-\BOOKMARK [0][-]{appendix.Alph2}{Instalación}{part.1}% 58
-\BOOKMARK [1][-]{section.Alph2.1}{Linux}{appendix.Alph2}% 59
-\BOOKMARK [1][-]{section.Alph2.2}{Windows\222}{appendix.Alph2}% 60
-\BOOKMARK [1][-]{section.Alph2.3}{Mac OS X}{appendix.Alph2}% 61
-\BOOKMARK [1][-]{section.Alph2.4}{Overleaf o ShareLatex}{appendix.Alph2}% 62
-\BOOKMARK [1][-]{section.Alph2.5}{¿Dónde está el manual?}{appendix.Alph2}% 63
-\BOOKMARK [1][-]{section.Alph2.6}{Corrección ortográfica y codificación de caracteres}{appendix.Alph2}% 64
-\BOOKMARK [1][-]{section.Alph2.7}{¿Qué editor utilizo?}{appendix.Alph2}% 65
-\BOOKMARK [0][-]{appendix.Alph3}{Packetes incluidos}{part.1}% 66
-\BOOKMARK [0][-]{appendix.Alph4}{Resumen de opciones del estilo}{part.1}% 67
-\BOOKMARK [0][-]{appendix.Alph5}{Funciones y entornos}{part.1}% 68
-\BOOKMARK [1][-]{section.Alph5.1}{Comandos en el preámbulo}{appendix.Alph5}% 69
-\BOOKMARK [1][-]{section.Alph5.2}{Commandos en el cuerpo del texto}{appendix.Alph5}% 70
-\BOOKMARK [1][-]{section.Alph5.3}{Entornos}{appendix.Alph5}% 71
+\BOOKMARK [0][-]{chapter.1}{Introducción}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Motivación}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Objetivos}{chapter.1}% 3
+\BOOKMARK [0][-]{chapter.2}{Estado del arte}{}% 4
+\BOOKMARK [0][-]{chapter.3}{Metodología}{}% 5
+\BOOKMARK [1][-]{section.3.1}{Obtención de la base experimental.}{chapter.3}% 6
+\BOOKMARK [1][-]{section.3.2}{Extracción de nuevas características.}{chapter.3}% 7
+\BOOKMARK [2][-]{subsection.3.2.1}{Entropía del flujo completo}{section.3.2}% 8
+\BOOKMARK [2][-]{subsection.3.2.2}{Entropía media de los paquetes pertenecientes a un flujo}{section.3.2}% 9
+\BOOKMARK [2][-]{subsection.3.2.3}{Desviación típica de la entropía de los paquetes pertenecientes a un flujo}{section.3.2}% 10
+\BOOKMARK [2][-]{subsection.3.2.4}{Máximo de la entropía de los paquetes pertenecientes a un flujo}{section.3.2}% 11
+\BOOKMARK [0][-]{chapter*.15}{Bibliografía}{}% 12
+\BOOKMARK [-1][-]{part.1}{Apéndices}{}% 13
+\BOOKMARK [0][-]{appendix.Alph1}{Word\256 vs. LaTeX2e}{part.1}% 14
+\BOOKMARK [1][-]{section.Alph1.1}{Ventajas e inconvenientes de LaTeX2e}{appendix.Alph1}% 15
+\BOOKMARK [1][-]{section.Alph1.2}{Ventajas e inconvenientes de Word\256}{appendix.Alph1}% 16
+\BOOKMARK [1][-]{section.Alph1.3}{¿Cuál elijo?}{appendix.Alph1}% 17
+\BOOKMARK [0][-]{appendix.Alph2}{Instalación}{part.1}% 18
+\BOOKMARK [1][-]{section.Alph2.1}{Linux}{appendix.Alph2}% 19
+\BOOKMARK [1][-]{section.Alph2.2}{Windows\222}{appendix.Alph2}% 20
+\BOOKMARK [1][-]{section.Alph2.3}{Mac OS X}{appendix.Alph2}% 21
+\BOOKMARK [1][-]{section.Alph2.4}{Overleaf o ShareLatex}{appendix.Alph2}% 22
+\BOOKMARK [1][-]{section.Alph2.5}{¿Dónde está el manual?}{appendix.Alph2}% 23
+\BOOKMARK [1][-]{section.Alph2.6}{Corrección ortográfica y codificación de caracteres}{appendix.Alph2}% 24
+\BOOKMARK [1][-]{section.Alph2.7}{¿Qué editor utilizo?}{appendix.Alph2}% 25
+\BOOKMARK [0][-]{appendix.Alph3}{Packetes incluidos}{part.1}% 26
+\BOOKMARK [0][-]{appendix.Alph4}{Resumen de opciones del estilo}{part.1}% 27
+\BOOKMARK [0][-]{appendix.Alph5}{Funciones y entornos}{part.1}% 28
+\BOOKMARK [1][-]{section.Alph5.1}{Comandos en el preámbulo}{appendix.Alph5}% 29
+\BOOKMARK [1][-]{section.Alph5.2}{Commandos en el cuerpo del texto}{appendix.Alph5}% 30
+\BOOKMARK [1][-]{section.Alph5.3}{Entornos}{appendix.Alph5}% 31
