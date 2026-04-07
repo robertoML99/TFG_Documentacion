@@ -1,0 +1,7 @@
+Esta característica aporta información sobre el propio texto del payload, más concretamente la proporción de este que se considera texto legible. Como se calcula para el flujo entero, se concatenan todos los bytes de los paquetes del flujo y se contabilizan aquellos cuyo valor esta comprendido en $32 \leq B \leq 126$. Este intervalo representa el código ASCII de los caractéres que son imprimibles. Como en las anteriores características, cuando un paquete no tiene un payload válido los bytes de este no se agregan para el cálculo. Para obtener la proporción se utiliza la siguiente expresión:
+\begin{equation}[eq:ratio-bytes-printables]{Ratio de bytes imprimibles}
+R_{\mathrm{print}} = \frac{N_{\mathrm{print}}}{N}
+\end{equation}, donde $N_{\mathrm{print}}$ representa el número de bytes imprimibles del flujo y $N$ el total de bytes del flujo.
+
+Al tratarse de una proporción, sus valores quedan acotados por $0 \leq N_{\mathrm{print}} \leq 1$. Cuanto más se acerque su valor a $0$, menos bytes imprimibles tiene y cuanto más se acerque a $1$, mas bytes imprimibles tiene.
+
