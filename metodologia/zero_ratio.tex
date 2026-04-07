@@ -1,1 +1,9 @@
-Aunque se descartó la adición de una característica para el valor mínimo de la entropia de los paquetes de un flujo, sigue siendo interesante cuantificar el número de paquetes con aleatoriedad nula dentro de un flujo. 
+Aunque se descartó la adición de una característica para el valor mínimo de la entropia de los paquetes de un flujo, sigue siendo interesante cuantificar el número de paquetes con entropía nula o prácticamente nula dentro de un flujo. Para obtenerla se utiliza la siguiente expresión:
+\begin{equation}[eq:ratio-cero-paquetes-flujo]{Ratio de paquetes con entropía nula en el flujo}
+Ratio_0 = \frac{\#\{\, i \in \{1,\ldots,n\} : H_i \approx 0 \,\}}{n}
+\end{equation}, donde $i$ representa el índice de paquete dentro del flujo, $H_i$ la entropía de Shannon del paquete $i$ y $n$ el total de paquetes del flujo. No se selecciona únicamente los paquetes con una $H_i = 0$, sino que se utiliza la función la librería NumPy \texttt{np.isclose}, la cual seleccionará valores muy próximos a $0.0$.
+
+Dado que se trata de una proporción, los valores quedan acotados por $0 \leq Ratio_0 \leq 1$. Cuanto más se acerque este valor a 0, menos paquetes con entropía nula o prácticamente nula habrá en el flujo y cuanto más se acerque a 1 más paquetes con entropía nula o prácticamente nula habrá en el flujo.
+
+
+

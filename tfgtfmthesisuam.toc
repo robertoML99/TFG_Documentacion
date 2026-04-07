@@ -10,6 +10,7 @@
 \contentsline {subsection}{\numberline {3.2.2}Entropía media de los paquetes pertenecientes a un flujo}{8}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Desviación típica de la entropía de los paquetes pertenecientes a un flujo}{8}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Máximo de la entropía de los paquetes pertenecientes a un flujo}{9}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Proporción de entropía nula de los paquetes pertenecientes a un flujo}{10}{subsection.3.2.5}%
 \contentsline {chapter}{Bibliografía}{11}{chapter*.15}%
 \contentsline {part}{Apéndices}{13}{part.1}%
 \contentsline {chapter}{\numberline {A}Word\textsuperscript {\textregistered } vs. \LaTeXe }{15}{appendix.Alph1}%
