@@ -10,25 +10,29 @@
 \contentsline {subsection}{\numberline {3.2.2}Entropía media de los paquetes pertenecientes a un flujo}{8}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Desviación típica de la entropía de los paquetes pertenecientes a un flujo}{8}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Máximo de la entropía de los paquetes pertenecientes a un flujo}{9}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Proporción de entropía nula de los paquetes pertenecientes a un flujo}{10}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.5}Proporción de entropía nula de los paquetes pertenecientes a un flujo}{9}{subsection.3.2.5}%
 \contentsline {subsection}{\numberline {3.2.6}Proporción de bytes imprimibles de un flujo}{10}{subsection.3.2.6}%
-\contentsline {chapter}{Bibliografía}{11}{chapter*.15}%
-\contentsline {part}{Apéndices}{13}{part.1}%
-\contentsline {chapter}{\numberline {A}Word\textsuperscript {\textregistered } vs. \LaTeXe }{15}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Ventajas e inconvenientes de \LaTeXe }{15}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Ventajas e inconvenientes de Word\textsuperscript {\textregistered }}{15}{section.Alph1.2}%
-\contentsline {section}{\numberline {A.3}¿Cuál elijo?}{16}{section.Alph1.3}%
-\contentsline {chapter}{\numberline {B}Instalación}{17}{appendix.Alph2}%
-\contentsline {section}{\numberline {B.1}Linux}{17}{section.Alph2.1}%
-\contentsline {section}{\numberline {B.2}Windows\textsuperscript {\texttrademark }}{18}{section.Alph2.2}%
-\contentsline {section}{\numberline {B.3}Mac OS X}{18}{section.Alph2.3}%
-\contentsline {section}{\numberline {B.4}Overleaf o ShareLatex}{19}{section.Alph2.4}%
-\contentsline {section}{\numberline {B.5}¿Dónde está el manual?}{19}{section.Alph2.5}%
-\contentsline {section}{\numberline {B.6}Corrección ortográfica y codificación de caracteres}{19}{section.Alph2.6}%
-\contentsline {section}{\numberline {B.7}¿Qué editor utilizo?}{19}{section.Alph2.7}%
-\contentsline {chapter}{\numberline {C}Packetes incluidos}{21}{appendix.Alph3}%
-\contentsline {chapter}{\numberline {D}Resumen de opciones del estilo}{23}{appendix.Alph4}%
-\contentsline {chapter}{\numberline {E}Funciones y entornos}{27}{appendix.Alph5}%
-\contentsline {section}{\numberline {E.1}Comandos en el preámbulo}{27}{section.Alph5.1}%
-\contentsline {section}{\numberline {E.2}Commandos en el cuerpo del texto}{29}{section.Alph5.2}%
-\contentsline {section}{\numberline {E.3}Entornos}{30}{section.Alph5.3}%
+\contentsline {subsection}{\numberline {3.2.7}Proporción de bytes no ASCII de un flujo}{10}{subsection.3.2.7}%
+\contentsline {section}{\numberline {3.3}Procesamiento del conjunto de datos.}{11}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Implementación machine learning.}{11}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Resultados}{13}{chapter.4}%
+\contentsline {chapter}{Bibliografía}{15}{chapter*.15}%
+\contentsline {part}{Apéndices}{17}{part.1}%
+\contentsline {chapter}{\numberline {A}Word\textsuperscript {\textregistered } vs. \LaTeXe }{19}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Ventajas e inconvenientes de \LaTeXe }{19}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Ventajas e inconvenientes de Word\textsuperscript {\textregistered }}{19}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}¿Cuál elijo?}{20}{section.Alph1.3}%
+\contentsline {chapter}{\numberline {B}Instalación}{21}{appendix.Alph2}%
+\contentsline {section}{\numberline {B.1}Linux}{21}{section.Alph2.1}%
+\contentsline {section}{\numberline {B.2}Windows\textsuperscript {\texttrademark }}{22}{section.Alph2.2}%
+\contentsline {section}{\numberline {B.3}Mac OS X}{22}{section.Alph2.3}%
+\contentsline {section}{\numberline {B.4}Overleaf o ShareLatex}{23}{section.Alph2.4}%
+\contentsline {section}{\numberline {B.5}¿Dónde está el manual?}{23}{section.Alph2.5}%
+\contentsline {section}{\numberline {B.6}Corrección ortográfica y codificación de caracteres}{23}{section.Alph2.6}%
+\contentsline {section}{\numberline {B.7}¿Qué editor utilizo?}{23}{section.Alph2.7}%
+\contentsline {chapter}{\numberline {C}Packetes incluidos}{25}{appendix.Alph3}%
+\contentsline {chapter}{\numberline {D}Resumen de opciones del estilo}{27}{appendix.Alph4}%
+\contentsline {chapter}{\numberline {E}Funciones y entornos}{31}{appendix.Alph5}%
+\contentsline {section}{\numberline {E.1}Comandos en el preámbulo}{31}{section.Alph5.1}%
+\contentsline {section}{\numberline {E.2}Commandos en el cuerpo del texto}{33}{section.Alph5.2}%
+\contentsline {section}{\numberline {E.3}Entornos}{34}{section.Alph5.3}%

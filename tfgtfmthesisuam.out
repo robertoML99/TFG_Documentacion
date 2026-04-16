@@ -11,23 +11,27 @@
 \BOOKMARK [2][-]{subsection.3.2.4}{Máximo de la entropía de los paquetes pertenecientes a un flujo}{section.3.2}% 11
 \BOOKMARK [2][-]{subsection.3.2.5}{Proporción de entropía nula de los paquetes pertenecientes a un flujo}{section.3.2}% 12
 \BOOKMARK [2][-]{subsection.3.2.6}{Proporción de bytes imprimibles de un flujo}{section.3.2}% 13
-\BOOKMARK [0][-]{chapter*.15}{Bibliografía}{}% 14
-\BOOKMARK [-1][-]{part.1}{Apéndices}{}% 15
-\BOOKMARK [0][-]{appendix.Alph1}{Word\256 vs. LaTeX2e}{part.1}% 16
-\BOOKMARK [1][-]{section.Alph1.1}{Ventajas e inconvenientes de LaTeX2e}{appendix.Alph1}% 17
-\BOOKMARK [1][-]{section.Alph1.2}{Ventajas e inconvenientes de Word\256}{appendix.Alph1}% 18
-\BOOKMARK [1][-]{section.Alph1.3}{¿Cuál elijo?}{appendix.Alph1}% 19
-\BOOKMARK [0][-]{appendix.Alph2}{Instalación}{part.1}% 20
-\BOOKMARK [1][-]{section.Alph2.1}{Linux}{appendix.Alph2}% 21
-\BOOKMARK [1][-]{section.Alph2.2}{Windows\222}{appendix.Alph2}% 22
-\BOOKMARK [1][-]{section.Alph2.3}{Mac OS X}{appendix.Alph2}% 23
-\BOOKMARK [1][-]{section.Alph2.4}{Overleaf o ShareLatex}{appendix.Alph2}% 24
-\BOOKMARK [1][-]{section.Alph2.5}{¿Dónde está el manual?}{appendix.Alph2}% 25
-\BOOKMARK [1][-]{section.Alph2.6}{Corrección ortográfica y codificación de caracteres}{appendix.Alph2}% 26
-\BOOKMARK [1][-]{section.Alph2.7}{¿Qué editor utilizo?}{appendix.Alph2}% 27
-\BOOKMARK [0][-]{appendix.Alph3}{Packetes incluidos}{part.1}% 28
-\BOOKMARK [0][-]{appendix.Alph4}{Resumen de opciones del estilo}{part.1}% 29
-\BOOKMARK [0][-]{appendix.Alph5}{Funciones y entornos}{part.1}% 30
-\BOOKMARK [1][-]{section.Alph5.1}{Comandos en el preámbulo}{appendix.Alph5}% 31
-\BOOKMARK [1][-]{section.Alph5.2}{Commandos en el cuerpo del texto}{appendix.Alph5}% 32
-\BOOKMARK [1][-]{section.Alph5.3}{Entornos}{appendix.Alph5}% 33
+\BOOKMARK [2][-]{subsection.3.2.7}{Proporción de bytes no ASCII de un flujo}{section.3.2}% 14
+\BOOKMARK [1][-]{section.3.3}{Procesamiento del conjunto de datos.}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.4}{Implementación machine learning.}{chapter.3}% 16
+\BOOKMARK [0][-]{chapter.4}{Resultados}{}% 17
+\BOOKMARK [0][-]{chapter*.15}{Bibliografía}{}% 18
+\BOOKMARK [-1][-]{part.1}{Apéndices}{}% 19
+\BOOKMARK [0][-]{appendix.Alph1}{Word\256 vs. LaTeX2e}{part.1}% 20
+\BOOKMARK [1][-]{section.Alph1.1}{Ventajas e inconvenientes de LaTeX2e}{appendix.Alph1}% 21
+\BOOKMARK [1][-]{section.Alph1.2}{Ventajas e inconvenientes de Word\256}{appendix.Alph1}% 22
+\BOOKMARK [1][-]{section.Alph1.3}{¿Cuál elijo?}{appendix.Alph1}% 23
+\BOOKMARK [0][-]{appendix.Alph2}{Instalación}{part.1}% 24
+\BOOKMARK [1][-]{section.Alph2.1}{Linux}{appendix.Alph2}% 25
+\BOOKMARK [1][-]{section.Alph2.2}{Windows\222}{appendix.Alph2}% 26
+\BOOKMARK [1][-]{section.Alph2.3}{Mac OS X}{appendix.Alph2}% 27
+\BOOKMARK [1][-]{section.Alph2.4}{Overleaf o ShareLatex}{appendix.Alph2}% 28
+\BOOKMARK [1][-]{section.Alph2.5}{¿Dónde está el manual?}{appendix.Alph2}% 29
+\BOOKMARK [1][-]{section.Alph2.6}{Corrección ortográfica y codificación de caracteres}{appendix.Alph2}% 30
+\BOOKMARK [1][-]{section.Alph2.7}{¿Qué editor utilizo?}{appendix.Alph2}% 31
+\BOOKMARK [0][-]{appendix.Alph3}{Packetes incluidos}{part.1}% 32
+\BOOKMARK [0][-]{appendix.Alph4}{Resumen de opciones del estilo}{part.1}% 33
+\BOOKMARK [0][-]{appendix.Alph5}{Funciones y entornos}{part.1}% 34
+\BOOKMARK [1][-]{section.Alph5.1}{Comandos en el preámbulo}{appendix.Alph5}% 35
+\BOOKMARK [1][-]{section.Alph5.2}{Commandos en el cuerpo del texto}{appendix.Alph5}% 36
+\BOOKMARK [1][-]{section.Alph5.3}{Entornos}{appendix.Alph5}% 37

@@ -1,0 +1,9 @@
+Esta característica mide la proporción de bytes del payload agregado del flujo que se sitúan fuera del rango del estándar ASCII, es decir, aquellos bytes que cumplan $B > 127$. Esta proporción complementa a la anterior, ya que aporta información sobre la presencia de datos binarios, comprimidos o cifrados. Para obtener la proporción se utiliza la siguiente expresion:
+\begin{equation}[EQ:RNONASCII]{}
+R_{\text{noASCII}}=\frac{N_{>127}}{N}
+\end{equation}, donde $N_{>127}$ representa el número de bytes no ASCII y N el número de bytes totales del flujo.
+
+Como en los casos anteriores, al tratarse de una proporción, sus valores quedan acotados por $0 \leq R_{\text{noASCII}} \leq 1$. Para el cálculo solo se consideran bytes de paquetes cuyo payload sea válido. Cuanto más cercano a $0$ sea su valor, menor presencia de paquetes binarios, cifrados o comprimidos. Cuanto más se acerque a $1$, mayor será la presencia de estos.
+
+Esta característica complementa a la proporción de bytes imprimibles: una mide la presencia caracteres imprimibles, mientras que la otra mide la cantidad de bytes situados fuera del rango ASCII, los cuales no son imprimibles.
+
