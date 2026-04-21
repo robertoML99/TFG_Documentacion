@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  16 APR 2026 20:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  21 APR 2026 19:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1316,9 +1316,9 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-20264161215.tex)...disabled (restricted).
+runsystem(touch w18-test-20264211144.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20264161215.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20264211144.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
@@ -2965,9 +2965,9 @@ LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 13.67995pt on input line 56.
 
 (./metodologia/shannon.tex
-LaTeX Info: Redefining \. on input line 5.
-LaTeX Info: Redefining \% on input line 5.
-Package cleveref Info: loaded `spanish' language definitions on input line 5.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+Package cleveref Info: loaded `spanish' language definitions on input line 2.
 \openout6 = `tfgtfmthesisuam.mw'.
 
  [6] (./tfgtfmthesisuam.mw)
@@ -2977,28 +2977,28 @@ Package cleveref Info: loaded `spanish' language definitions on input line 5.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
 )
-(./metodologia/media_entropia.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
-Package cleveref Info: loaded `spanish' language definitions on input line 2.
+LaTeX Info: Redefining \. on input line 57.
+LaTeX Info: Redefining \% on input line 57.
+Package cleveref Info: loaded `spanish' language definitions on input line 57.
 \openout6 = `tfgtfmthesisuam.mw'.
 
  [7]
 (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+ (./metodologia/media_entropia.tex
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 8.
 
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)) (./metodologia/desv_tipica.tex
+))
+(./metodologia/desv_tipica.tex
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 Package cleveref Info: loaded `spanish' language definitions on input line 7.
@@ -3017,9 +3017,9 @@ Package cleveref Info: loaded `spanish' language definitions on input line 7.
 
 )
 (./metodologia/max_ent.tex) (./metodologia/zero_ratio.tex
-LaTeX Info: Redefining \. on input line 5.
-LaTeX Info: Redefining \% on input line 5.
-Package cleveref Info: loaded `spanish' language definitions on input line 5.
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+Package cleveref Info: loaded `spanish' language definitions on input line 4.
 \openout6 = `tfgtfmthesisuam.mw'.
 
  [9]
@@ -3038,16 +3038,12 @@ Package cleveref Info: loaded `spanish' language definitions on input line 5.
 (./metodologia/no_ascii.tex
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 5.22498pt on input line 3.
-) (./metodologia/proc_dataset.tex)
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
-Package cleveref Info: loaded `spanish' language definitions on input line 64.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+Package cleveref Info: loaded `spanish' language definitions on input line 7.
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [10]
-(./tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
-
+ [10] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3056,7 +3052,10 @@ Package cleveref Info: loaded `spanish' language definitions on input line 64.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
- (./metodologia/extraccion_pcap.tex)
+\openout6 = `tfgtfmthesisuam.mw'.
+
+)
+(./metodologia/proc_dataset.tex) (./metodologia/extraccion_pcap.tex)
 (./metodologia/random_forest.tex)
 LaTeX Info: Redefining \. on input line 67.
 LaTeX Info: Redefining \% on input line 67.
@@ -4488,7 +4487,7 @@ LaTeX Warning: There were multiply-defined labels.
 \openout6 = `tfgtfmthesisuam.out'.
 
 Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
-(rerunfilecheck)             Checksum: 0DE7FC10B2A3808791E2C8CBD4D7D2B3;2945.
+(rerunfilecheck)             Checksum: A928C5DC2B3DCECE4CF4DD3D009FE30E;2945.
 \openout6 = `tfgtfmthesisuam.idx'.
 
 \openout6 = `tfgtfmthesisuam.glo'.
@@ -4545,10 +4544,10 @@ texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf
 type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/he
 lvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8
 a.pfb>
-Output written on tfgtfmthesisuam.pdf (54 pages, 1619209 bytes).
+Output written on tfgtfmthesisuam.pdf (54 pages, 1620121 bytes).
 PDF statistics:
- 678 PDF objects out of 1000 (max. 8388607)
- 558 compressed objects within 6 object streams
+ 679 PDF objects out of 1000 (max. 8388607)
+ 559 compressed objects within 6 object streams
  127 named destinations out of 1000 (max. 500000)
  352 words of extra memory for PDF output out of 10000 (max. 10000000)
 
