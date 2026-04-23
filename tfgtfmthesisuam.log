@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  21 APR 2026 19:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  23 APR 2026 11:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1316,9 +1316,9 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-20264211144.tex)...disabled (restricted).
+runsystem(touch w18-test-2026423713.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20264211144.tex)...disabled (restricted).
+runsystem(rm -f w18-test-2026423713.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
@@ -1979,13 +1979,6 @@ LaTeX Warning: Unused global option(s):
 (./tfgtfmthesisuam.aux
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
-
-
-LaTeX Warning: Label `SEC:NEW_FEAT' multiply defined.
-
-
-LaTeX Warning: Label `SEC:NEW_FEAT@cref' multiply defined.
-
 )
 \openout1 = `tfgtfmthesisuam.aux'.
 
@@ -2009,7 +2002,8 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Trying to load font information for T1+txss on input line 4
 5.
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txss.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txss.fd
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
@@ -3055,8 +3049,12 @@ Package cleveref Info: loaded `spanish' language definitions on input line 7.
 \openout6 = `tfgtfmthesisuam.mw'.
 
 )
-(./metodologia/proc_dataset.tex) (./metodologia/extraccion_pcap.tex)
-(./metodologia/random_forest.tex)
+(./metodologia/proc_dataset.tex) (./metodologia/extraccion_pcap.tex
+Overfull \hbox (24.26762pt too wide) in paragraph at lines 7--18
+ [] 
+ []
+
+) (./metodologia/random_forest.tex)
 LaTeX Info: Redefining \. on input line 67.
 LaTeX Info: Redefining \% on input line 67.
 Package cleveref Info: loaded `spanish' language definitions on input line 67.
@@ -3077,11 +3075,12 @@ Package cleveref Info: loaded `spanish' language definitions on input line 67.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+Package cleveref Info: loaded `spanish' language definitions on input line 67.
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [12
-
-]
+ [12]
 (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
@@ -3090,7 +3089,9 @@ Cap\'{\i }tulo 4.
 (./resultados/resultados.tex) (./tfgtfmthesisuam.bbl
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [13] (./tfgtfmthesisuam.mw)
+ [13
+
+] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4468,6 +4469,10 @@ Package cleveref Info: loaded `spanish' language definitions on input line 19.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
 )
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -4481,13 +4486,10 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 \openout6 = `tfgtfmthesisuam.out'.
 
 Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
-(rerunfilecheck)             Checksum: A928C5DC2B3DCECE4CF4DD3D009FE30E;2945.
+(rerunfilecheck)             Checksum: 41854C4F7F3B96FAFF653D291D9B519A;2945.
 \openout6 = `tfgtfmthesisuam.idx'.
 
 \openout6 = `tfgtfmthesisuam.glo'.
@@ -4512,10 +4514,10 @@ Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
 
  ) 
 Here is how much of TeX's memory you used:
- 53089 strings out of 474222
- 1165240 string characters out of 5748733
+ 53103 strings out of 474222
+ 1165519 string characters out of 5748733
  1954975 words of memory out of 5000000
- 72766 multiletter control sequences out of 15000+600000
+ 72776 multiletter control sequences out of 15000+600000
  679616 words of font info for 226 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,12n,107p,2338b,1011s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -4544,10 +4546,10 @@ texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf
 type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/he
 lvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8
 a.pfb>
-Output written on tfgtfmthesisuam.pdf (54 pages, 1620121 bytes).
+Output written on tfgtfmthesisuam.pdf (54 pages, 1624014 bytes).
 PDF statistics:
- 679 PDF objects out of 1000 (max. 8388607)
- 559 compressed objects within 6 object streams
- 127 named destinations out of 1000 (max. 500000)
+ 682 PDF objects out of 1000 (max. 8388607)
+ 562 compressed objects within 6 object streams
+ 128 named destinations out of 1000 (max. 500000)
  352 words of extra memory for PDF output out of 10000 (max. 10000000)
 
