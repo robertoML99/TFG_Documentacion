@@ -6,7 +6,7 @@
 \contentsline {chapter}{\numberline {3}Metodología}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Obtención de la base experimental.}{5}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Definición de nuevas características.}{6}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Entropía del flujo completo}{7}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Entropía del flujo completo}{6}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Entropía media de los paquetes pertenecientes a un flujo}{8}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Desviación típica de la entropía de los paquetes pertenecientes a un flujo}{8}{subsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.2.4}Máximo de la entropía de los paquetes pertenecientes a un flujo}{9}{subsection.3.2.4}%
@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {3.2.6}Proporción de bytes imprimibles de un flujo}{10}{subsection.3.2.6}%
 \contentsline {subsection}{\numberline {3.2.7}Proporción de bytes no ASCII de un flujo}{10}{subsection.3.2.7}%
 \contentsline {section}{\numberline {3.3}Enriquecimiento del conjunto de datos.}{11}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Implementación machine learning.}{13}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Construcción, entrenamiento y evaluación del modelo de aprendizaje automático}{13}{section.3.4}%
 \contentsline {chapter}{\numberline {4}Resultados}{15}{chapter.4}%
 \contentsline {chapter}{Bibliografía}{17}{chapter*.15}%
 \contentsline {part}{Apéndices}{19}{part.1}%
@@ -22,17 +22,3 @@
 \contentsline {section}{\numberline {A.1}Ventajas e inconvenientes de \LaTeXe }{21}{section.Alph1.1}%
 \contentsline {section}{\numberline {A.2}Ventajas e inconvenientes de Word\textsuperscript {\textregistered }}{21}{section.Alph1.2}%
 \contentsline {section}{\numberline {A.3}¿Cuál elijo?}{22}{section.Alph1.3}%
-\contentsline {chapter}{\numberline {B}Instalación}{23}{appendix.Alph2}%
-\contentsline {section}{\numberline {B.1}Linux}{23}{section.Alph2.1}%
-\contentsline {section}{\numberline {B.2}Windows\textsuperscript {\texttrademark }}{24}{section.Alph2.2}%
-\contentsline {section}{\numberline {B.3}Mac OS X}{24}{section.Alph2.3}%
-\contentsline {section}{\numberline {B.4}Overleaf o ShareLatex}{25}{section.Alph2.4}%
-\contentsline {section}{\numberline {B.5}¿Dónde está el manual?}{25}{section.Alph2.5}%
-\contentsline {section}{\numberline {B.6}Corrección ortográfica y codificación de caracteres}{25}{section.Alph2.6}%
-\contentsline {section}{\numberline {B.7}¿Qué editor utilizo?}{25}{section.Alph2.7}%
-\contentsline {chapter}{\numberline {C}Packetes incluidos}{27}{appendix.Alph3}%
-\contentsline {chapter}{\numberline {D}Resumen de opciones del estilo}{29}{appendix.Alph4}%
-\contentsline {chapter}{\numberline {E}Funciones y entornos}{33}{appendix.Alph5}%
-\contentsline {section}{\numberline {E.1}Comandos en el preámbulo}{33}{section.Alph5.1}%
-\contentsline {section}{\numberline {E.2}Commandos en el cuerpo del texto}{35}{section.Alph5.2}%
-\contentsline {section}{\numberline {E.3}Entornos}{36}{section.Alph5.3}%

@@ -54,31 +54,3 @@ parent={},%
 %
 }%
 
-\glsdefs@newdocentry{OPCST}%
-{%
-name={opción de estilo},%
-sort={opción de estilo},%
-type={main},%
-first={opción de estilo},%
-firstplural={opciones de estilo},%
-text={opción de estilo},%
-plural={opciones de estilo},%
-description={Son los valores que modifican el funcionamiento del estilo. Se ponen entre corchetes y separadas por comas en el comando \textbackslash documentclass y antes de el nombre del estilo que irá entre llaves},%
-descriptionplural={Son los valores que modifican el funcionamiento del estilo. Se ponen entre corchetes y separadas por comas en el comando \textbackslash documentclass y antes de el nombre del estilo que irá entre llaves},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={},%
-longplural={},%
-short={},%
-shortplural={},%
-counter={page},%
-parent={},%
-%
-}%
-
