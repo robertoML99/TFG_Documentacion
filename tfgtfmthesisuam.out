@@ -14,10 +14,13 @@
 \BOOKMARK [2][-]{subsection.3.2.7}{Proporción de bytes no ASCII de un flujo}{section.3.2}% 14
 \BOOKMARK [1][-]{section.3.3}{Enriquecimiento del conjunto de datos.}{chapter.3}% 15
 \BOOKMARK [1][-]{section.3.4}{Construcción, entrenamiento y evaluación del modelo de aprendizaje automático}{chapter.3}% 16
-\BOOKMARK [0][-]{chapter.4}{Resultados}{}% 17
-\BOOKMARK [0][-]{chapter*.15}{Bibliografía}{}% 18
-\BOOKMARK [-1][-]{part.1}{Apéndices}{}% 19
-\BOOKMARK [0][-]{appendix.Alph1}{Word\256 vs. LaTeX2e}{part.1}% 20
-\BOOKMARK [1][-]{section.Alph1.1}{Ventajas e inconvenientes de LaTeX2e}{appendix.Alph1}% 21
-\BOOKMARK [1][-]{section.Alph1.2}{Ventajas e inconvenientes de Word\256}{appendix.Alph1}% 22
-\BOOKMARK [1][-]{section.Alph1.3}{¿Cuál elijo?}{appendix.Alph1}% 23
+\BOOKMARK [2][-]{subsection.3.4.1}{Preparación del conjunto de datos para el modelo}{section.3.4}% 17
+\BOOKMARK [2][-]{subsection.3.4.2}{Entrenamiento del modelo}{section.3.4}% 18
+\BOOKMARK [2][-]{subsection.3.4.3}{Evaluación del modelo}{section.3.4}% 19
+\BOOKMARK [0][-]{chapter.4}{Resultados}{}% 20
+\BOOKMARK [0][-]{chapter*.15}{Bibliografía}{}% 21
+\BOOKMARK [-1][-]{part.1}{Apéndices}{}% 22
+\BOOKMARK [0][-]{appendix.Alph1}{Word\256 vs. LaTeX2e}{part.1}% 23
+\BOOKMARK [1][-]{section.Alph1.1}{Ventajas e inconvenientes de LaTeX2e}{appendix.Alph1}% 24
+\BOOKMARK [1][-]{section.Alph1.2}{Ventajas e inconvenientes de Word\256}{appendix.Alph1}% 25
+\BOOKMARK [1][-]{section.Alph1.3}{¿Cuál elijo?}{appendix.Alph1}% 26
