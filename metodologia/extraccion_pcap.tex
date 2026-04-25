@@ -1,20 +1,11 @@
 Como se mencionó en la sección \ref{SEC:BASEEX}, la base experimental consta de ficheros PCAP que contienen los paquetes del tráfico en bruto y ficheros CSV en los que estos paquetes han sido procesados, agrupados en flujos y para los que se han extraído características. Para procesar estos PCAP, se desarrollaron una serie de scripts en Python que, utilizando la herramienta \texttt{tshark}, extraen la información necesaria de los paquetes para poder reconstruir los flujos y obtener las características definidas en la sección \ref{SEC:NEW_FEAT}.
 
-Se escogió Python como lenguaje de programación debido a su simplicidad y al gran número de librerías disponibles. En cuanto a \texttt{tshark}, es la versión en línea de comandos de \texttt{Whireshark}. Se utiliza para extraer informacion de ficheros PCAP sin interfaz gráfica. En este caso, se utiliza para extraer la información de los paquetes de tráfico IP cuyos protocolos de transporte son TCP o UDP. A partir de cada paquete se obtiene la dirección IP origen, dirección IP destino, puerto origen, puerto destino, un id para el protocolo de transporte (6 para TCP y 17 para UDP), la longitud del paquete, el tiempo de captura, la pila de protocolos por los que pasa el paquete y el contenido del payload en hexadecimal. 
+Se escogió Python como lenguaje de programación debido a su simplicidad y al gran número de librerías disponibles para el procesamiento de datos. En cuanto a \texttt{tshark}, es la versión en línea de comandos de \texttt{Wireshark}. Se utiliza para extraer informacion de ficheros PCAP sin interfaz gráfica. En este caso, se utiliza para extraer la información de los paquetes de tráfico IP cuyos protocolos de transporte son TCP o UDP. A partir de cada paquete se obtiene la dirección IP origen, dirección IP destino, puerto origen, puerto destino, un id para el protocolo de transporte (6 para TCP y 17 para UDP), la longitud del paquete, la pila de protocolos por los que pasa el paquete y el contenido del payload en hexadecimal. 
 
-\begin{table}[Campos extraídos con tshark]{TAB:TSHARK_FIELDS}{Campos extraídos mediante \texttt{tshark} y utilidad dentro del procesamiento.}
-\centering
-\begin{tabular}{|l|p{9cm}|}
-\hline
-\textbf{Campo extraído} & \textbf{Utilidad en el procesamiento} \\ \hline
-\texttt{ip.src}, \texttt{ip.dst} & Construcción del identificador de flujo a partir de las direcciones IP de origen y destino. \\ \hline
-\texttt{tcp.srcport}, \texttt{udp.srcport} & Obtención del puerto de origen efectivo del paquete. \\ \hline
-\texttt{tcp.dstport}, \texttt{udp.dstport} & Obtención del puerto de destino efectivo del paquete. \\ \hline
-\texttt{frame.protocols} & Identificación del protocolo de transporte presente en el paquete y conversión a un identificador numérico (\texttt{6} para TCP y \texttt{17} para UDP). \\ \hline
-\texttt{tcp.payload}, \texttt{udp.payload}, \texttt{data.data} & Extracción del contenido útil del paquete en hexadecimal para el cálculo de las nuevas características basadas en \textit{payload}. \\ \hline
-\texttt{frame.len} & Campo auxiliar extraído durante el preprocesamiento, no utilizado finalmente en las características definidas. \\ \hline
-\texttt{frame.time\_relative} & Campo auxiliar extraído durante el preprocesamiento, no utilizado finalmente en las características definidas. \\ \hline
-\end{tabular}
-\end{table}
+Se desarrollaron un total de 5 scripts, uno por día. La lógica general es parecida en todos, pero los ficheros de entrada tenían cada uno sus peculiaridades. El lunes requirió un tratamiento especial para enlazar los flujos construidos en el script con los del fichero CSV de base, ya que en algunos casos el ID del flujo estaba invertido. Los scripts de martes y miércoles no requirieron de modificaciones ya que tenían un único fichero CSV cada uno y se pudieron unir a sus respectivos CSV directamente. Los casos de jueves y viernes requirieron un tratamiento especial también, ya que partían de un único PCAP pero en el material de partida tenían múltiples CSV asociados, separados por distintos tipos de ataques. Además, en el del jueves se requirió normalizar los datos de uno de los CSV debido a inconsistencias en el formato.
 
-Se desarrollaron un total de 5 scripts, uno por día. La lógica general es parecida en todos, pero los ficheros de entrada tenían cada uno sus peculiaridades. El lunes 
+El procedimiento en los scripts es:
+
+\PythonCode{Construcción del comando tshark}
+{Fragmento de código utilizado para construir el comando de extracción de campos mediante \texttt{tshark}.}
+{python/tshark.py}{1}{999}{1}
