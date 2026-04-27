@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  26 APR 2026 13:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  27 APR 2026 13:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1316,9 +1316,9 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-2026426826.tex)...disabled (restricted).
+runsystem(touch w18-test-2026427821.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-2026426826.tex)...disabled (restricted).
+runsystem(rm -f w18-test-2026427821.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
@@ -3125,32 +3125,27 @@ LaTeX Font Info:    Font shape `T1/txss/m/it' in size <9> not available
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 8.54997pt on input line 5.
 
-(./codes/python/hiperparametros.py)) (./metodologia/test.tex)
+(./codes/python/hiperparametros.py)
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+Package cleveref Info: loaded `spanish' language definitions on input line 8.
+\openout6 = `tfgtfmthesisuam.mw'.
+
+ [14] (./tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+)
+(./metodologia/test.tex)
 LaTeX Info: Redefining \. on input line 67.
 LaTeX Info: Redefining \% on input line 67.
 Package cleveref Info: loaded `spanish' language definitions on input line 67.
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [14]
-(./tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-
-Cap\'{\i }tulo 4.
-(./resultados/resultados.tex) (./tfgtfmthesisuam.bbl
-\openout6 = `tfgtfmthesisuam.mw'.
-
- [15
-
-] (./tfgtfmthesisuam.mw)
+ [15] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3165,15 +3160,11 @@ Cap\'{\i }tulo 4.
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-)
-No file tfgtfmthesisuam.gls.
-No file tfgtfmthesisuam.acr.
+Cap\'{\i }tulo 4.
+(./resultados/resultados.tex) (./tfgtfmthesisuam.bbl
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[17] (./tfgtfmthesisuam.mw)
+ [17] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3187,11 +3178,34 @@ No file tfgtfmthesisuam.acr.
 ] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
+
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+)
+No file tfgtfmthesisuam.gls.
+No file tfgtfmthesisuam.acr.
+\openout6 = `tfgtfmthesisuam.mw'.
+
+[19] (./tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+ [20
+
+] (./tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
 LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <39> not available
 (Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 68.
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [19]
+ [21]
 (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
@@ -3201,7 +3215,7 @@ LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <39> not available
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [20] (./tfgtfmthesisuam.mw)
+ [22] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
@@ -3528,7 +3542,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[21
+[23
 
 ] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3565,7 +3579,7 @@ LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
 (Font)              scaled to size 7.31494pt on input line 72.
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [22] (./tfgtfmthesisuam.mw)
+ [24] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3582,7 +3596,7 @@ LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
 No file tfgtfmthesisuam.ind.
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[23
+[25
 
 
 ] (./tfgtfmthesisuam.mw)
@@ -3614,7 +3628,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[24 <./logoUAMw.png>] (./tfgtfmthesisuam.mw)
+[26 <./logoUAMw.png>] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
  (./tfgtfmthesisuam.aux
@@ -4065,10 +4079,10 @@ Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
 
  ) 
 Here is how much of TeX's memory you used:
- 53178 strings out of 474222
- 1163166 string characters out of 5748733
+ 53197 strings out of 474222
+ 1163466 string characters out of 5748733
  2030609 words of memory out of 5000000
- 73144 multiletter control sequences out of 15000+600000
+ 73151 multiletter control sequences out of 15000+600000
  674848 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,12n,107p,2338b,1797s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -4092,10 +4106,10 @@ ive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
 ino/uplb8a.pfb>
-Output written on tfgtfmthesisuam.pdf (42 pages, 2571925 bytes).
+Output written on tfgtfmthesisuam.pdf (44 pages, 2574592 bytes).
 PDF statistics:
- 551 PDF objects out of 1000 (max. 8388607)
- 446 compressed objects within 5 object streams
- 125 named destinations out of 1000 (max. 500000)
+ 561 PDF objects out of 1000 (max. 8388607)
+ 454 compressed objects within 5 object streams
+ 127 named destinations out of 1000 (max. 500000)
  256 words of extra memory for PDF output out of 10000 (max. 10000000)
 

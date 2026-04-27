@@ -17,11 +17,11 @@
 \contentsline {section}{\numberline {3.4}Construcción, entrenamiento y evaluación del modelo de aprendizaje automático}{13}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Preparación del conjunto de datos para el modelo}{13}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Entrenamiento del modelo Random Forest}{14}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Evaluación del modelo}{14}{subsection.3.4.3}%
-\contentsline {chapter}{\numberline {4}Resultados}{15}{chapter.4}%
-\contentsline {chapter}{Bibliografía}{17}{chapter*.15}%
-\contentsline {part}{Apéndices}{19}{part.1}%
-\contentsline {chapter}{\numberline {A}Word\textsuperscript {\textregistered } vs. \LaTeXe }{21}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Ventajas e inconvenientes de \LaTeXe }{21}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Ventajas e inconvenientes de Word\textsuperscript {\textregistered }}{21}{section.Alph1.2}%
-\contentsline {section}{\numberline {A.3}¿Cuál elijo?}{22}{section.Alph1.3}%
+\contentsline {subsection}{\numberline {3.4.3}Evaluación del modelo}{15}{subsection.3.4.3}%
+\contentsline {chapter}{\numberline {4}Resultados}{17}{chapter.4}%
+\contentsline {chapter}{Bibliografía}{19}{chapter*.15}%
+\contentsline {part}{Apéndices}{21}{part.1}%
+\contentsline {chapter}{\numberline {A}Word\textsuperscript {\textregistered } vs. \LaTeXe }{23}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Ventajas e inconvenientes de \LaTeXe }{23}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Ventajas e inconvenientes de Word\textsuperscript {\textregistered }}{23}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}¿Cuál elijo?}{24}{section.Alph1.3}%
