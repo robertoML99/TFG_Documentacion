@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  27 APR 2026 13:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  27 APR 2026 19:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1316,9 +1316,9 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-2026427821.tex)...disabled (restricted).
+runsystem(touch w18-test-20264271187.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-2026427821.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20264271187.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
@@ -3082,8 +3082,8 @@ Package cleveref Info: loaded `spanish' language definitions on input line 18.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-)
-Overfull \hbox (18.25504pt too wide) in paragraph at lines 23--63
+
+Overfull \hbox (18.25504pt too wide) in paragraph at lines 23--24
 \T1/txss/m/n/11 ro. Pa-ra ello, se de-sa-rro-llo un script de Python que fil-tr
 a-ba aque-llos flu-jos en los que $[] \OT1/cmr/m/n/10.95 =
  []
@@ -3091,16 +3091,16 @@ a-ba aque-llos flu-jos en los que $[] \OT1/cmr/m/n/10.95 =
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 63.
-LaTeX Info: Redefining \% on input line 63.
-Package cleveref Info: loaded `spanish' language definitions on input line 63.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+Package cleveref Info: loaded `spanish' language definitions on input line 24.
 \openout6 = `tfgtfmthesisuam.mw'.
 
  [12]
 (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
- (./metodologia/random_forest.tex)
+) (./metodologia/random_forest.tex)
 (./metodologia/preparacion_datos_rf.tex
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
@@ -4079,10 +4079,10 @@ Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
 
  ) 
 Here is how much of TeX's memory you used:
- 53197 strings out of 474222
- 1163466 string characters out of 5748733
+ 53198 strings out of 474222
+ 1163483 string characters out of 5748733
  2030609 words of memory out of 5000000
- 73151 multiletter control sequences out of 15000+600000
+ 73152 multiletter control sequences out of 15000+600000
  674848 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,12n,107p,2338b,1797s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -4106,7 +4106,7 @@ ive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
 ino/uplb8a.pfb>
-Output written on tfgtfmthesisuam.pdf (44 pages, 2574592 bytes).
+Output written on tfgtfmthesisuam.pdf (44 pages, 2576029 bytes).
 PDF statistics:
  561 PDF objects out of 1000 (max. 8388607)
  454 compressed objects within 5 object streams
