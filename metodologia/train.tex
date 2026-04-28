@@ -15,5 +15,3 @@ Se incluyó también \texttt{oob\_score = True} con el objetivo de aprovechar al
 Finalmente, se fija \texttt{random\_state = 42} para obtener siempre los mismos resultados y poder repetir el experimento y \texttt{n\_jobs = -1} para utilizar todos los núcleos de la máquina y reducir el tiempo de entrenamiento.
 
 Una vez establecidos los hiperparámetros, se realiza una llamada a la función \texttt{fit}, la cual pone en marcha el entrenamiento. Una vez hecho esto, el clasificador queda preparado para generar predicciones sobre el subconjunto de prueba.
-
-Una vez entrenado el modelo, se evalúa su rendimiento sobre el subconjunto de evaluación llamando a la función \texttt{predict}.

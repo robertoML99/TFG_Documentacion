@@ -17,6 +17,7 @@
 \contentsline {section}{\numberline {3.4}Construcción, entrenamiento y evaluación del modelo de aprendizaje automático}{13}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Preparación del conjunto de datos para el modelo}{13}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Entrenamiento y evaluación del modelo Random Forest}{14}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Evaluación del modelo Random Forest}{15}{subsection.3.4.3}%
 \contentsline {chapter}{\numberline {4}Resultados}{17}{chapter.4}%
 \contentsline {chapter}{Bibliografía}{19}{chapter*.15}%
 \contentsline {part}{Apéndices}{21}{part.1}%

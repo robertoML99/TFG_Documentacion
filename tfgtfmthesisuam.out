@@ -16,10 +16,11 @@
 \BOOKMARK [1][-]{section.3.4}{Construcción, entrenamiento y evaluación del modelo de aprendizaje automático}{chapter.3}% 16
 \BOOKMARK [2][-]{subsection.3.4.1}{Preparación del conjunto de datos para el modelo}{section.3.4}% 17
 \BOOKMARK [2][-]{subsection.3.4.2}{Entrenamiento y evaluación del modelo Random Forest}{section.3.4}% 18
-\BOOKMARK [0][-]{chapter.4}{Resultados}{}% 19
-\BOOKMARK [0][-]{chapter*.15}{Bibliografía}{}% 20
-\BOOKMARK [-1][-]{part.1}{Apéndices}{}% 21
-\BOOKMARK [0][-]{appendix.Alph1}{Word\256 vs. LaTeX2e}{part.1}% 22
-\BOOKMARK [1][-]{section.Alph1.1}{Ventajas e inconvenientes de LaTeX2e}{appendix.Alph1}% 23
-\BOOKMARK [1][-]{section.Alph1.2}{Ventajas e inconvenientes de Word\256}{appendix.Alph1}% 24
-\BOOKMARK [1][-]{section.Alph1.3}{¿Cuál elijo?}{appendix.Alph1}% 25
+\BOOKMARK [2][-]{subsection.3.4.3}{Evaluación del modelo Random Forest}{section.3.4}% 19
+\BOOKMARK [0][-]{chapter.4}{Resultados}{}% 20
+\BOOKMARK [0][-]{chapter*.15}{Bibliografía}{}% 21
+\BOOKMARK [-1][-]{part.1}{Apéndices}{}% 22
+\BOOKMARK [0][-]{appendix.Alph1}{Word\256 vs. LaTeX2e}{part.1}% 23
+\BOOKMARK [1][-]{section.Alph1.1}{Ventajas e inconvenientes de LaTeX2e}{appendix.Alph1}% 24
+\BOOKMARK [1][-]{section.Alph1.2}{Ventajas e inconvenientes de Word\256}{appendix.Alph1}% 25
+\BOOKMARK [1][-]{section.Alph1.3}{¿Cuál elijo?}{appendix.Alph1}% 26
