@@ -1,0 +1,6 @@
+Como se ha mencionado previamente, el primer experimento se compone de los resultados obtenidos siguiendo la metodología de reparto del dataset de la sección \ref{SEC:RF}. Esta consiste en dividir el conjunto de datos por registros de forma aleatoria, causando un posible \texttt{data leakage} por la presencia de identificadores de flujo repetidos en ambos subconjuntos, aumentando falsamente la precisión en la clasificación de las clases con más identificadores de flujo repetidos.
+
+Lo primero a analizar es la matriz de confusión, la cual se representa normalizada en la figura \ref{FIG:MATRIZ1}. Como se puede ver, 
+\begin{figure}{FIG:MATRIZ1}{Matriz de confusión normalizada con data leakage.}
+    \image{}{}{matriz_confusion_1_normalizada}
+\end{figure}
