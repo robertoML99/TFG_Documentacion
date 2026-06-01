@@ -21,11 +21,11 @@
 \contentsline {chapter}{\numberline {4}Resultados}{17}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Análisis exploratorio del conjunto de datos.}{17}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Experimento 1.}{18}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Experimento 2.}{18}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Comparación de los experimentos.}{18}{section.4.4}%
-\contentsline {chapter}{Bibliografía}{21}{chapter*.18}%
-\contentsline {part}{Apéndices}{23}{part.1}%
-\contentsline {chapter}{\numberline {A}Word\textsuperscript {\textregistered } vs. \LaTeXe }{25}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Ventajas e inconvenientes de \LaTeXe }{25}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Ventajas e inconvenientes de Word\textsuperscript {\textregistered }}{25}{section.Alph1.2}%
-\contentsline {section}{\numberline {A.3}¿Cuál elijo?}{26}{section.Alph1.3}%
+\contentsline {section}{\numberline {4.3}Experimento 2.}{20}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Comparación de los experimentos.}{20}{section.4.4}%
+\contentsline {chapter}{Bibliografía}{23}{chapter*.19}%
+\contentsline {part}{Apéndices}{25}{part.1}%
+\contentsline {chapter}{\numberline {A}Word\textsuperscript {\textregistered } vs. \LaTeXe }{27}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Ventajas e inconvenientes de \LaTeXe }{27}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Ventajas e inconvenientes de Word\textsuperscript {\textregistered }}{27}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}¿Cuál elijo?}{28}{section.Alph1.3}%

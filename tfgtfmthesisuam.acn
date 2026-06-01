@@ -1,2 +1,2 @@
-(indexentry :tkey (("WYSIWYG" "\\glossentry{wysiwyg}") ) :locref "{}{25}" :attr "pageglsnumberformat" )
-(indexentry :tkey (("WYTIWYG" "\\glossentry{wytiwyg}") ) :locref "{}{25}" :attr "pageglsnumberformat" )
+(indexentry :tkey (("WYSIWYG" "\\glossentry{wysiwyg}") ) :locref "{}{27}" :attr "pageglsnumberformat" )
+(indexentry :tkey (("WYTIWYG" "\\glossentry{wytiwyg}") ) :locref "{}{27}" :attr "pageglsnumberformat" )
