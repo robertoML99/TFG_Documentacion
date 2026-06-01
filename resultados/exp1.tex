@@ -8,7 +8,7 @@ Lo primero a analizar es la matriz de confusión, la cual se representa normaliz
 
 La exactitud global es de $0,9991$, es decir, aproximadamente un $99,91\%$ de las muestras del subconjunto de prueba fueron clasificadas correctamente. No obstante, este valor no implica un tan buen comportamiento del clasificador debido al desbalance entre las clases. Las clases mayoritarias han sido clasificadas correctamente pero las minoritarias han dado problemas como se ha demostrado en el análisis de la matriz de confusión. 
 
-Para complementar con los datos exactos los valores de la matriz de confusión y la precisión global, se analiza el reporte de clasificación, el cual se puede ver al completo en la tabla \ref{TAB:CLASSIFICATION-REPORT1}. En él se observa que la mayoría de las clases presentan valores muy elevados de precisión, exhaustividad y medida F1, destacando las que tienen un mayor número de muestras.
+Para complementar con los datos exactos los valores de la matriz de confusión y la precisión global, se analiza el reporte de clasificación, el cual se puede ver al completo en la tabla \ref{TAB:CLASSIFICATION-REPORT1}. En él se observa que la mayoría de las clases presentan valores muy elevados de precisión, exhaustividad y medida F1, destacando las que tienen un mayor número de muestras. 
 
 \begin{table}{TAB:CLASSIFICATION-REPORT1}{Classification report del modelo Random Forest del experimento 1}
 \centering
@@ -39,3 +39,11 @@ Weighted avg & 1.00 & 1.00 & 1.00 & 706082 \\
 \hline
 \end{tabular}
 \end{table}
+
+Finalmente obtenemos las 20 características más relevantes a la hora de clasificar las muestras, las cuales están representadas en la figura \ref{FIG:importance_1}. La más relevante de todas es \texttt{Service Port}, la cual identifica el puerto del servicio. Que esta característica sea la más relevante tiene sentido, ya que muchos de los tipos de tráfico están asociados a servicios concretos. A partir de esta, las 7 siguientes se corresponden a las que fueron definidas en la sección \ref{SEC:NEW_FEAT}, por lo que aquí ya se puede confirmar que cada una de ellas ha sido relevante y ha aportado más profundidad al conjunto de datos. La primera de estas es \texttt{Byte Printable Ratio}. Que aparezca tan arriba indica que la cantidad de bytes cuyo contenido es texto del payload del flujo ayuda a distinguir entre la naturaleza de los paquetes. Tras esta se encuentra \texttt{Packet Entropy Max}, la cual puede tener un valor elevado debido a que algunos ataques contengan paquetes concretos con un payload especialmente aleatorio. Posteriormente se encuentra \texttt{Payload Entropy}, cuya importancia tiene sentido debido ya que ciertos ataques pueden tener un payload más repetitivo y otros un payload más variable. Seguida de esta se encuentra \texttt{Packet Entropy Zero Ratio}, cuyo valor se puede deber a que los paquetes de ciertos ataques con clases muy representadas como DoS no tienen carga útil. Tras esta le siguen 
+
+\begin{figure}{FIG:importance_1}{Características más importantes del experimento 1.}
+    \image{12cm}{}{feature_importance_1}
+\end{figure}
+
+En general, en este experimento se han obtenido muy buenos resultados, pero como la división de los subconjuntos de entrenamiento y pruebas puede introducir el \texttt{data leakage} estos no se deben tratar de forma optimista. En la siguiente sección se acabará con este problema y se realizarán los mismos análisis que aquí.

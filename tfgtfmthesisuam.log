@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.20)  1 JUN 2026 13:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  1 JUN 2026 19:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1316,9 +1316,9 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-202661800.tex)...disabled (restricted).
+runsystem(touch w18-test-2026611164.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-202661800.tex)...disabled (restricted).
+runsystem(rm -f w18-test-2026611164.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
@@ -3204,6 +3204,8 @@ Package cleveref Info: loaded `spanish' language definitions on input line 10.
 
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 6.64998pt on input line 15.
+
+Figure feature_importance_1 with width data
 ) (./resultados/exp2.tex
 Figure matriz_confusion_normalizada without any size data using 0.9*textwidth
 ) (./resultados/cmp_exp.tex) (./tfgtfmthesisuam.bbl
@@ -3219,6 +3221,14 @@ Package cleveref Info: loaded `spanish' language definitions on input line 1.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+Package cleveref Info: loaded `spanish' language definitions on input line 1.
+\openout6 = `tfgtfmthesisuam.mw'.
+
+[21 <./img/feature_importance_1.pdf>] (./tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3228,15 +3238,7 @@ LaTeX Info: Redefining \% on input line 1.
 Package cleveref Info: loaded `spanish' language definitions on input line 1.
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[21 <./img/matriz_confusion_normalizada.pdf>] (./tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
- [22
-
-]
-(./tfgtfmthesisuam.mw)
+ [22 <./img/matriz_confusion_normalizada.pdf>] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
@@ -3248,7 +3250,9 @@ No file tfgtfmthesisuam.gls.
 No file tfgtfmthesisuam.acr.
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[23] (./tfgtfmthesisuam.mw)
+[23
+
+] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4128,6 +4132,10 @@ Package cleveref Info: loaded `spanish' language definitions on input line 19.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
 )
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -4144,7 +4152,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 \openout6 = `tfgtfmthesisuam.out'.
 
 Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
-(rerunfilecheck)             Checksum: 0189427C84CB25442BFC8BBB7628662D;2436.
+(rerunfilecheck)             Checksum: 9B4BC07B9B9D452AFA9EDB34E73131AE;2436.
 \openout6 = `tfgtfmthesisuam.idx'.
 
 \openout6 = `tfgtfmthesisuam.glo'.
@@ -4169,10 +4177,10 @@ Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
 
  ) 
 Here is how much of TeX's memory you used:
- 53339 strings out of 474222
- 1166230 string characters out of 5748733
- 2031341 words of memory out of 5000000
- 73208 multiletter control sequences out of 15000+600000
+ 53346 strings out of 474222
+ 1166364 string characters out of 5748733
+ 2031410 words of memory out of 5000000
+ 73210 multiletter control sequences out of 15000+600000
  678621 words of font info for 223 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,12n,107p,2338b,1797s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -4196,10 +4204,10 @@ ive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
 ino/uplb8a.pfb>
-Output written on tfgtfmthesisuam.pdf (48 pages, 2632387 bytes).
+Output written on tfgtfmthesisuam.pdf (48 pages, 2648313 bytes).
 PDF statistics:
- 644 PDF objects out of 1000 (max. 8388607)
- 518 compressed objects within 6 object streams
- 139 named destinations out of 1000 (max. 500000)
- 303 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 657 PDF objects out of 1000 (max. 8388607)
+ 527 compressed objects within 6 object streams
+ 140 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 
