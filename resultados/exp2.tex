@@ -1,3 +1,38 @@
-\begin{figure}{FIG:MATRIZ2}{Matriz de confusión normalizada sin data leakage.}
+En este experimento se modifica la estrategia de partición del conjunto de datos con el objetivo de reducir el riesgo de que se produzca \texttt{data leakage}.
+
+\begin{figure}{FIG:MATRIZ2}{Matriz de confusión normalizada del experimento 2.}
     \image{}{}{matriz_confusion_normalizada}
+\end{figure}
+
+\begin{table}{TAB:CLASSIFICATION-REPORT2}{Reporte de clasificación del experimento 2}
+\centering
+\scriptsize
+\begin{tabular}{p{4.6cm}cccc}
+\hline
+Clase & Precision & Recall & F1-score & Support \\
+\hline
+BENIGN & 1.00 & 1.00 & 1.00 & 571052 \\
+Bot & 0.81 & 0.97 & 0.88 & 467 \\
+DDoS & 1.00 & 1.00 & 1.00 & 31983 \\
+DoS GoldenEye & 1.00 & 1.00 & 1.00 & 2662 \\
+DoS Hulk & 1.00 & 1.00 & 1.00 & 58118 \\
+DoS Slowhttptest & 1.00 & 0.99 & 0.99 & 1401 \\
+DoS slowloris & 0.99 & 1.00 & 1.00 & 1411 \\
+FTP-Patator & 1.00 & 1.00 & 1.00 & 1996 \\
+Heartbleed & 0.00 & 0.00 & 0.00 & 11 \\
+PortScan & 0.99 & 1.00 & 1.00 & 39748 \\
+SSH-Patator & 1.00 & 1.00 & 1.00 & 1354 \\
+Web Attack Brute Force & 0.78 & 0.77 & 0.77 & 375 \\
+Web Attack Sql Injection & 1.00 & 0.30 & 0.46 & 10 \\
+Web Attack XSS & 0.48 & 0.47 & 0.47 & 157 \\
+\hline
+Accuracy & - & - & 1.00 & 710745 \\
+Macro avg & 0.86 & 0.82 & 0.83 & 710745 \\
+Weighted avg & 1.00 & 1.00 & 1.00 & 710745 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{figure}{FIG:importance_2}{Características más importantes del experimento 2.}
+    \image{12cm}{}{feature_importance_2}
 \end{figure}

@@ -21,9 +21,9 @@
 \contentsline {chapter}{\numberline {4}Resultados}{17}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Análisis exploratorio del conjunto de datos.}{17}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Experimento 1.}{18}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Experimento 2.}{21}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Comparación de los experimentos.}{21}{section.4.4}%
-\contentsline {chapter}{Bibliografía}{25}{chapter*.20}%
+\contentsline {section}{\numberline {4.3}Experimento 2.}{22}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Comparación de los experimentos.}{24}{section.4.4}%
+\contentsline {chapter}{Bibliografía}{25}{chapter*.22}%
 \contentsline {part}{Apéndices}{27}{part.1}%
 \contentsline {chapter}{\numberline {A}Word\textsuperscript {\textregistered } vs. \LaTeXe }{29}{appendix.Alph1}%
 \contentsline {section}{\numberline {A.1}Ventajas e inconvenientes de \LaTeXe }{29}{section.Alph1.1}%
