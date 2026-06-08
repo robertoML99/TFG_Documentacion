@@ -23,9 +23,9 @@
 \contentsline {section}{\numberline {4.2}Experimento 1.}{18}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Experimento 2.}{22}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Comparación de los experimentos.}{25}{section.4.4}%
-\contentsline {chapter}{Bibliografía}{27}{chapter*.22}%
-\contentsline {part}{Apéndices}{29}{part.1}%
-\contentsline {chapter}{\numberline {A}Word\textsuperscript {\textregistered } vs. \LaTeXe }{31}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Ventajas e inconvenientes de \LaTeXe }{31}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Ventajas e inconvenientes de Word\textsuperscript {\textregistered }}{31}{section.Alph1.2}%
-\contentsline {section}{\numberline {A.3}¿Cuál elijo?}{32}{section.Alph1.3}%
+\contentsline {chapter}{Bibliografía}{29}{chapter*.23}%
+\contentsline {part}{Apéndices}{31}{part.1}%
+\contentsline {chapter}{\numberline {A}Word\textsuperscript {\textregistered } vs. \LaTeXe }{33}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Ventajas e inconvenientes de \LaTeXe }{33}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Ventajas e inconvenientes de Word\textsuperscript {\textregistered }}{33}{section.Alph1.2}%
+\contentsline {section}{\numberline {A.3}¿Cuál elijo?}{34}{section.Alph1.3}%

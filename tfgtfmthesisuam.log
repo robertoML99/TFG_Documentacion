@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.20)  7 JUN 2026 13:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  8 JUN 2026 12:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1316,9 +1316,9 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-202667816.tex)...disabled (restricted).
+runsystem(touch w18-test-202668747.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-202667816.tex)...disabled (restricted).
+runsystem(rm -f w18-test-202668747.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
@@ -3268,22 +3268,45 @@ es-tric-ta del mo-de-lo evi-tan-do el \T1/pcr/m/n/11 data leakage\T1/txss/m/n/1
 1 .
  []
 
-(./resultados/cmp_exp.tex) (./tfgtfmthesisuam.bbl
+(./resultados/cmp_exp.tex
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+Package cleveref Info: loaded `spanish' language definitions on input line 3.
+\openout6 = `tfgtfmthesisuam.mw'.
+
+ [25 <./img/feature_importance_2.pdf>]
+(./tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+Package cleveref Info: loaded `spanish' language definitions on input line 11.
+\openout6 = `tfgtfmthesisuam.mw'.
+
+ [26]
+(./tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
+) (./tfgtfmthesisuam.bbl
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 Package cleveref Info: loaded `spanish' language definitions on input line 1.
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [25 <./img/feature_importance_2.pdf>] (./tfgtfmthesisuam.mw)
+ [27] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
-
- [26
+[28
 
 ] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3297,7 +3320,7 @@ No file tfgtfmthesisuam.gls.
 No file tfgtfmthesisuam.acr.
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[27] (./tfgtfmthesisuam.mw)
+[29] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3306,7 +3329,7 @@ No file tfgtfmthesisuam.acr.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [28
+ [30
 
 ] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3315,7 +3338,7 @@ LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <39> not available
 (Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 72.
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [29]
+ [31]
 (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
@@ -3325,7 +3348,7 @@ LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <39> not available
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [30] (./tfgtfmthesisuam.mw)
+ [32] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
@@ -3652,7 +3675,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[31
+[33
 
 ] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3689,7 +3712,7 @@ LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
 (Font)              scaled to size 7.31494pt on input line 76.
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [32] (./tfgtfmthesisuam.mw)
+ [34] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3706,7 +3729,7 @@ LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
 No file tfgtfmthesisuam.ind.
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[33
+[35
 
 
 ] (./tfgtfmthesisuam.mw)
@@ -3738,13 +3761,17 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[34 <./logoUAMw.png>] (./tfgtfmthesisuam.mw)
+[36 <./logoUAMw.png>] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
  (./tfgtfmthesisuam.aux
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
 Package cleveref Info: loaded `spanish' language definitions on input line 19.
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4205,7 +4232,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 \openout6 = `tfgtfmthesisuam.out'.
 
 Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
-(rerunfilecheck)             Checksum: 699B2ABF52C3CDEC8A1DEEBE03D11248;2436.
+(rerunfilecheck)             Checksum: 0621835F7CC3AB25E8543C3D0854559C;2436.
 \openout6 = `tfgtfmthesisuam.idx'.
 
 \openout6 = `tfgtfmthesisuam.glo'.
@@ -4230,10 +4257,10 @@ Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
 
  ) 
 Here is how much of TeX's memory you used:
- 53383 strings out of 474222
- 1167021 string characters out of 5748733
- 2031546 words of memory out of 5000000
- 73214 multiletter control sequences out of 15000+600000
+ 53401 strings out of 474222
+ 1167344 string characters out of 5748733
+ 2031613 words of memory out of 5000000
+ 73216 multiletter control sequences out of 15000+600000
  678621 words of font info for 223 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,12n,107p,2375b,1797s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -4244,23 +4271,24 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxbss
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxss.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxbsssc.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/txfonts/rtxsssc.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfrb0800.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
-ino/uplb8a.pfb>
-Output written on tfgtfmthesisuam.pdf (52 pages, 2675649 bytes).
+ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxbss.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxss.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/txfonts/rtxbsssc.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/txfonts/rtxsssc.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sfrb0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
+0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
+elvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb
+8a.pfb>
+Output written on tfgtfmthesisuam.pdf (54 pages, 2690364 bytes).
 PDF statistics:
- 693 PDF objects out of 1000 (max. 8388607)
- 555 compressed objects within 6 object streams
- 146 named destinations out of 1000 (max. 500000)
+ 709 PDF objects out of 1000 (max. 8388607)
+ 567 compressed objects within 6 object streams
+ 149 named destinations out of 1000 (max. 500000)
  313 words of extra memory for PDF output out of 10000 (max. 10000000)
 

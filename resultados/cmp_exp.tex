@@ -1,0 +1,49 @@
+Una vez obtenidos y analizados los resultados de ambos experimentos, se realizará una comparación entre ambos. Como se ha mencionado anteriormente, la principal diferencia entre estos es la forma de dividir el conjunto de datos en los subconjuntos de entrenamiento y prueba. Cada uno de estos tiene sus ventajas y sus desventajas.
+
+El primer experimento tiene como ventaja principal la partición estratificada con \texttt{stratify} para mantener la proporción entre clases en ambos subconjuntos, la cual es especialmente útil en un conjunto de datos desbalanceado como el que se ha utilizado. Esto evita que las clases minoritarias tengan menor representación en el subconjunto de prueba o que directamente no aparezcan en este. Su principal desventaja es que con el conjunto de datos final generado en este trabajo, si existen muestras con el mismo \texttt{Flow ID} en ambos subconjuntos se introduce el problema de \texttt{data leakage}, donde el modelo encontraría patrones ya reconocidos durante el entrenamiento y produciría un falso aumento en las métricas de evaluación de este.
+
+El segundo experimento tiene como ventaja principal que corrige el problema del primer experimento, evitando que muestras equivalentes aparezcan en ambos subconjuntos. Para lograrlo se dividen los subconjuntos por \texttt{Flow ID}, evitando que las muestras cuyo \texttt{Flow ID} sea el mismo (las cuales tendrán el mismo valor de las características definidas en el trabajo) aparezcan en ambos subconjuntos simultáneamente Esto hace que la evaluación sea más estricta y se pueda evaluar de una forma más realista el rendimiento del modelo. La principal desventaja de este es que, aunque se evite el \texttt{data leakage}, no se puede garantizar que ambos subconjuntos estén balanceados, introduciendo la posibilidad de que haya clases infrarrepresentadas en el subconjunto de prueba o que directamente desaparezcan como es el caso de \texttt{Infiltration}.
+
+Al comparar las matrices de confusión de ambos experimentos, se puede ver que para las clases mayoritarias se obtiene en ambas una gran tasa de aciertos en la diagonal principal. Esto es evidente en  las clases \texttt{BENIGN}, \texttt{DDoS}, \texttt{DoS GoldenEye}, \texttt{DoS Hulk}, \texttt{DoS slowloris}, \texttt{FTP-Patator}, \texttt{PortScan} y \texttt{SSH-Patator}, donde se obtienen valores de $1,00$ en ambos experimentos. 
+En el caso de \texttt{DoS Slowhttptest}, en ambos experimentos se obtienen tasas de aciertos de $0,99$, con una ligera confusión de más en el experimento 2. Viendo los resultados de la clase \texttt{Bot}, se puede ver que en el experimento 2 se obtiene un $2\%$ más de aciertos. Esto puede deberse a que las muestras de esta clase en el subconjunto de pruebas en el segundo experimento sean más fáciles de clasificar que las del primero.
+Los ataques web presentan la misma problemática en ambos experimentos, esta es, la confusión entre \texttt{Web Attack Brute Force} y \texttt{Web Attack XSS} y la confusión de \texttt{Web Attack Sql Injection} con tráfico benigno. En el caso de \texttt{Web Attack Brute Force}, los resultados son prácticamente idénticos, ambas tienen una tasa de acierto de $0,77$ y el resto se confunde con \texttt{Web Attack XSS}, habiendo un poco más de confusión en el experimento 2. Para \texttt{Web Attack Sql Injection}, el rendimiento es bajo en ambos experimentos. En el primer experimento se clasifican correctamente el $40\%$ de las muestras, mientras que en el segundo solo un $30\%$. En ambos la mayoría de confusiones son con tráfico benigno. En cuanto a \texttt{Web Attack XSS}, en ambos se muestran resultados muy similares, clasificándose en el primer experimento correctamente un $48\%$ de las muestras y en el segundo un $47\%$. La mayoría de errores vienen por la confusión con \texttt{Web Attack Brute Force}.
+Las dos grandes diferencias son consecuencia de las estrategias de división. El primer caso es la clase \texttt{Infiltration}, la cual desaparece completamente de los resultados del experimento 2 debido a que, como se vio anteriormente, ninguna muestra es asignada al subconjunto de prueba. El segundo caso es la clase \texttt{Heartbleed}, en la cual en el experimento 1 se obtiene un resultado perfecto y en el 2 ningún acierto. Esto se puede deber a que en el experimento 1, las muestras de ambos subconjuntos sean las mismas y, por tanto, se reconozca un patrón y se clasifiquen correctamente. Esto es muy factible debido a que esta es una clase minoritaria y las muestras podrían compartir \texttt{Flow ID}. En el segundo experimento, al no reconocerse este patrón, el modelo falla en todos los casos.
+
+En cuanto a la precisión global, esta varía muy poco entre ambos experimentos. Más concretamente, del primer al segundo experimento baja un $0,0018\%$. Esta bajada es leve porque la precisión global depende de las clases mayoritarias y en ambos experimentos se obtiene un rendimiento muy alto en estas.
+
+Para ver con más detalle la diferencia entre ambos, se realiza una comparación entre los reportes de clasificación entre ambos experimentos. Esta se puede ver al completo en la tabla \ref{TAB:COMPARACION_REPORTS}. En esta, $P_n$ representa la precisión del experimento $n$, $R_n$ la exhaustividad, $F1_n$ la medida F1 y $S_n$ el soporte. Además, las columnas $\Delta P$, $\Delta R$, $\Delta F1$ y $\Delta S$ indican la variación entre el segundo y el primer experimento con respecto al experimento 2.
+
+\begin{table}{TAB:COMPARACION_REPORTS}{Comparación de los reportes de clasificación de ambos experimentos}
+\centering
+\scriptsize
+\resizebox{\textwidth}{!}{
+\begin{tabular}{p{4.2cm}ccc ccc ccc ccc}
+\hline
+Clase 
+& P1 & P2 & $\Delta$P
+& R1 & R2 & $\Delta$R
+& F1-1 & F1-2 & $\Delta$F1
+& S1 & S2 & $\Delta$S \\
+\hline
+BENIGN & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 & 0.00 & 566672 & 571052 & +4380 \\
+Bot & 0.85 & 0.81 & -0.04 & 0.95 & 0.97 & +0.02 & 0.90 & 0.88 & -0.02 & 491 & 467 & -24 \\
+DDoS & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 & 0.00 & 32007 & 31983 & -24 \\
+DoS GoldenEye & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 & 0.00 & 2573 & 2662 & +89 \\
+DoS Hulk & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 & 0.00 & 57768 & 58118 & +350 \\
+DoS Slowhttptest & 1.00 & 1.00 & 0.00 & 0.99 & 0.99 & 0.00 & 1.00 & 0.99 & -0.01 & 1375 & 1401 & +26 \\
+DoS slowloris & 1.00 & 0.99 & -0.01 & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 & 0.00 & 1449 & 1411 & -38 \\
+FTP-Patator & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 & 0.00 & 1985 & 1996 & +11 \\
+Heartbleed & 1.00 & 0.00 & -1.00 & 1.00 & 0.00 & -1.00 & 1.00 & 0.00 & -1.00 & 3 & 11 & +8 \\
+Infiltration & 1.00 & -- & -- & 0.67 & -- & -- & 0.80 & -- & -- & 9 & 0 & -9 \\
+PortScan & 0.99 & 0.99 & 0.00 & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 & 0.00 & 39731 & 39748 & +17 \\
+SSH-Patator & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 & 0.00 & 1474 & 1354 & -120 \\
+Web Attack Brute Force & 0.78 & 0.78 & 0.00 & 0.77 & 0.77 & 0.00 & 0.77 & 0.77 & 0.00 & 377 & 375 & -2 \\
+Web Attack Sql Injection & 1.00 & 1.00 & 0.00 & 0.40 & 0.30 & -0.10 & 0.57 & 0.46 & -0.11 & 5 & 10 & +5 \\
+Web Attack XSS & 0.49 & 0.48 & -0.01 & 0.48 & 0.47 & -0.01 & 0.48 & 0.47 & -0.01 & 163 & 157 & -6 \\
+\hline
+Macro avg & 0.94 & 0.86 & -0.08 & 0.88 & 0.82 & -0.06 & 0.90 & 0.83 & -0.07 & 706082 & 710745 & +4663 \\
+Weighted avg & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 & 0.00 & 706082 & 710745 & +4663 \\
+\hline
+\end{tabular}
+}
+\end{table}
