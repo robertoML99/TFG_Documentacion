@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  8 JUN 2026 13:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  8 JUN 2026 20:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1316,9 +1316,9 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-202668812.tex)...disabled (restricted).
+runsystem(touch w18-test-2026681228.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-202668812.tex)...disabled (restricted).
+runsystem(rm -f w18-test-2026681228.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
@@ -2752,50 +2752,47 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 Package cleveref Info: loaded `spanish' language definitions on input line 1.
 LaTeX Font Info:    Font shape `T1/txss/b/n' in size <12> not available
-(Font)              Font shape `T1/txss/bx/n' tried instead on input line 27.
+(Font)              Font shape `T1/txss/bx/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 11.39996pt on input line 27.
+(Font)              scaled to size 11.39996pt on input line 29.
 LaTeX Font Info:    Font shape `T1/txss/b/n' in size <7.69997> not available
-(Font)              Font shape `T1/txss/bx/n' tried instead on input line 28.
+(Font)              Font shape `T1/txss/bx/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 7.31494pt on input line 28.
+(Font)              scaled to size 7.31494pt on input line 30.
 LaTeX Font Info:    Font shape `TS1/txss/b/n' in size <7.69997> not available
-(Font)              Font shape `TS1/txss/bx/n' tried instead on input line 28.
+(Font)              Font shape `TS1/txss/bx/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `TS1/txss/bx/n' will be
-(Font)              scaled to size 7.31494pt on input line 28.
+(Font)              scaled to size 7.31494pt on input line 30.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 28.
+(Font)              size <5> substituted on input line 30.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 28.
+(Font)              size <5> substituted on input line 30.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 28.
+(Font)              size <5> substituted on input line 30.
 
 LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
-(Font)              scaled to size 7.31494pt on input line 30.
+(Font)              scaled to size 7.31494pt on input line 32.
+\openout6 = `tfgtfmthesisuam.mw'.
+
+[15] (./tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
 )
 \tf@toc=\write134
 \openout6 = `tfgtfmthesisuam.toc'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [15] (./tfgtfmthesisuam.mw)
+ [16] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
-\openout6 = `tfgtfmthesisuam.mw'.
-
- [16
-
-] (./tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
-
-
-(./tfgtfmthesisuam.loa)
+ (./tfgtfmthesisuam.loa)
 \tf@loa=\write135
 \openout6 = `tfgtfmthesisuam.loa'.
 
@@ -2807,12 +2804,12 @@ LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
 \tf@ltb=\write137
 \openout6 = `tfgtfmthesisuam.ltb'.
 
-
-(./tfgtfmthesisuam.loe)
+ (./tfgtfmthesisuam.loe)
 \tf@loe=\write138
 \openout6 = `tfgtfmthesisuam.loe'.
 
- (./tfgtfmthesisuam.lof
+
+(./tfgtfmthesisuam.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 Package cleveref Info: loaded `spanish' language definitions on input line 1.
@@ -2822,11 +2819,12 @@ Package cleveref Info: loaded `spanish' language definitions on input line 1.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [17] (./tfgtfmthesisuam.mw)
+ [17
+
+] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
-
-(./tfgtfmthesisuam.lot
+ (./tfgtfmthesisuam.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 Package cleveref Info: loaded `spanish' language definitions on input line 1.
@@ -2834,7 +2832,8 @@ Package cleveref Info: loaded `spanish' language definitions on input line 1.
 \tf@lot=\write140
 \openout6 = `tfgtfmthesisuam.lot'.
 
- (./tfgtfmthesisuam.ltb)
+
+(./tfgtfmthesisuam.ltb)
 \tf@ltb=\write141
 \openout6 = `tfgtfmthesisuam.ltb'.
 
@@ -2845,7 +2844,7 @@ Package cleveref Info: loaded `spanish' language definitions on input line 1.
 
 
 Cap\'{\i }tulo 1.
-(./introduccion/introduccion.tex
+(./introduccion/introduccion.tex) (./introduccion/motivacion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2866,8 +2865,12 @@ l.8
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-) (./introduccion/motivacion.tex)
-(./introduccion/objetivos.tex)
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+) (./introduccion/objetivos.tex)
+(./introduccion/estructura.tex)
 LaTeX Info: Redefining \. on input line 50.
 LaTeX Info: Redefining \% on input line 50.
 Package cleveref Info: loaded `spanish' language definitions on input line 50.
@@ -2899,7 +2902,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 \chapter{Metodología\label{CAP:METODOLOGIA}}
+l.51 \chapter{Metodología\label{CAP:METODOLOGIA}}
                                                   {metodologia/metodologia}
 \openout6 = `tfgtfmthesisuam.mw'.
 
@@ -2918,7 +2921,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 \chapter{Metodología\label{CAP:METODOLOGIA}}
+l.51 \chapter{Metodología\label{CAP:METODOLOGIA}}
                                                   {metodologia/metodologia}
 \openout6 = `tfgtfmthesisuam.mw'.
 
@@ -2931,17 +2934,24 @@ l.52 \chapter{Metodología\label{CAP:METODOLOGIA}}
 
 Cap\'{\i }tulo 3.
 (./metodologia/metodologia.tex
-Figure diagrama_seccion_3 with width data
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 1.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Figure metodologia2 with width data
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 4.
+(Font)              scaled to size 8.54997pt on input line 5.
 LaTeX Font Info:    Font shape `T1/txss/b/n' in size <9> not available
-(Font)              Font shape `T1/txss/bx/n' tried instead on input line 4.
+(Font)              Font shape `T1/txss/bx/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 8.54997pt on input line 4.
+(Font)              scaled to size 8.54997pt on input line 5.
 ) (./metodologia/base_experimental.tex
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [5 <./img/diagrama_seccion_3.pdf (PNG copy)>] (./tfgtfmthesisuam.mw)
+ [5 <./img/metodologia2.pdf (PNG copy)>]
+(./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -2954,16 +2964,16 @@ LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 
 ) (./metodologia/adicion_carac.tex)
 LaTeX Font Info:    Font shape `T1/txss/b/n' in size <14.4> not available
-(Font)              Font shape `T1/txss/bx/n' tried instead on input line 55.
+(Font)              Font shape `T1/txss/bx/n' tried instead on input line 54.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 13.67995pt on input line 55.
+(Font)              scaled to size 13.67995pt on input line 54.
 
 (./metodologia/shannon.tex
-Underfull \vbox (badness 1297) has occurred while \output is active []
+Underfull \vbox (badness 1867) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 5.
-LaTeX Info: Redefining \% on input line 5.
-Package cleveref Info: loaded `spanish' language definitions on input line 5.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+Package cleveref Info: loaded `spanish' language definitions on input line 2.
 \openout6 = `tfgtfmthesisuam.mw'.
 
  [6]
@@ -2974,33 +2984,46 @@ Package cleveref Info: loaded `spanish' language definitions on input line 5.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
+)
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
+Package cleveref Info: loaded `spanish' language definitions on input line 55.
+\openout6 = `tfgtfmthesisuam.mw'.
+
+ [7] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-) (./metodologia/media_entropia.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
-Package cleveref Info: loaded `spanish' language definitions on input line 2.
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [7]
-(./tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
 
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 8.
-
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)) (./metodologia/desv_tipica.tex
+(./metodologia/media_entropia.tex) (./metodologia/desv_tipica.tex
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 Package cleveref Info: loaded `spanish' language definitions on input line 7.
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [8] (./tfgtfmthesisuam.mw)
+ [8]
+(./tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+) (./metodologia/max_ent.tex)
+(./metodologia/zero_ratio.tex
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+Package cleveref Info: loaded `spanish' language definitions on input line 4.
+\openout6 = `tfgtfmthesisuam.mw'.
+
+ [9] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3012,32 +3035,12 @@ Package cleveref Info: loaded `spanish' language definitions on input line 7.
 \openout6 = `tfgtfmthesisuam.mw'.
 
 )
-(./metodologia/max_ent.tex) (./metodologia/zero_ratio.tex
-LaTeX Info: Redefining \. on input line 5.
-LaTeX Info: Redefining \% on input line 5.
-Package cleveref Info: loaded `spanish' language definitions on input line 5.
-\openout6 = `tfgtfmthesisuam.mw'.
-
- [9]
-(./tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-) (./metodologia/bytes_imprimibles.tex)
-(./metodologia/no_ascii.tex
+(./metodologia/bytes_imprimibles.tex) (./metodologia/no_ascii.tex
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 5.22498pt on input line 3.
-) (./metodologia/proc_dataset.tex
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
-Package cleveref Info: loaded `spanish' language definitions on input line 2.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+Package cleveref Info: loaded `spanish' language definitions on input line 7.
 \openout6 = `tfgtfmthesisuam.mw'.
 
  [10]
@@ -3046,6 +3049,22 @@ Package cleveref Info: loaded `spanish' language definitions on input line 2.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+) (./metodologia/proc_dataset.tex
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+Package cleveref Info: loaded `spanish' language definitions on input line 12.
+\openout6 = `tfgtfmthesisuam.mw'.
+
+ [11]
+(./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3065,41 +3084,24 @@ LaTeX Font Info:    Font shape `T1/txss/b/n' in size <8> not available
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 7.59998pt on input line 1.
 )
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
-Package cleveref Info: loaded `spanish' language definitions on input line 18.
-\openout6 = `tfgtfmthesisuam.mw'.
-
- [11] (./tfgtfmthesisuam.mw)
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-\openout6 = `tfgtfmthesisuam.mw'.
-
-
 Overfull \hbox (18.25504pt too wide) in paragraph at lines 23--24
 \T1/txss/m/n/11 ro. Pa-ra ello, se de-sa-rro-llo un script de Python que fil-tr
 a-ba aque-llos flu-jos en los que $[] \OT1/cmr/m/n/10.95 =
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 Package cleveref Info: loaded `spanish' language definitions on input line 24.
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [12]
-(./tfgtfmthesisuam.mw)
+[12] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 ) (./metodologia/random_forest.tex)
 (./metodologia/preparacion_datos_rf.tex
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
-Package cleveref Info: loaded `spanish' language definitions on input line 8.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+Package cleveref Info: loaded `spanish' language definitions on input line 7.
 \openout6 = `tfgtfmthesisuam.mw'.
 
  [13] (./tfgtfmthesisuam.mw)
@@ -3121,9 +3123,9 @@ LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 8.54997pt on input line 5.
 
 (./codes/python/hiperparametros.py)
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
-Package cleveref Info: loaded `spanish' language definitions on input line 8.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+Package cleveref Info: loaded `spanish' language definitions on input line 10.
 \openout6 = `tfgtfmthesisuam.mw'.
 
  [14] (./tfgtfmthesisuam.mw)
@@ -3135,15 +3137,12 @@ Package cleveref Info: loaded `spanish' language definitions on input line 8.
 
 )
 (./metodologia/test.tex
-Underfull \vbox (badness 2351) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 5.
-LaTeX Info: Redefining \% on input line 5.
-Package cleveref Info: loaded `spanish' language definitions on input line 5.
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+Package cleveref Info: loaded `spanish' language definitions on input line 4.
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [15]
-(./tfgtfmthesisuam.mw)
+ [15] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3151,9 +3150,9 @@ Package cleveref Info: loaded `spanish' language definitions on input line 5.
 \openout6 = `tfgtfmthesisuam.mw'.
 
 )
-LaTeX Info: Redefining \. on input line 67.
-LaTeX Info: Redefining \% on input line 67.
-Package cleveref Info: loaded `spanish' language definitions on input line 67.
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
+Package cleveref Info: loaded `spanish' language definitions on input line 66.
 \openout6 = `tfgtfmthesisuam.mw'.
 
  [16] (./tfgtfmthesisuam.mw)
@@ -3182,9 +3181,9 @@ Figure distribucion_clases with width data
 (./resultados/exp1.tex
 Figure matriz_confusion_1_normalizada without any size data using 0.9*textwidth
 
-LaTeX Info: Redefining \. on input line 13.
-LaTeX Info: Redefining \% on input line 13.
-Package cleveref Info: loaded `spanish' language definitions on input line 13.
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+Package cleveref Info: loaded `spanish' language definitions on input line 11.
 \openout6 = `tfgtfmthesisuam.mw'.
 
 [18] (./tfgtfmthesisuam.mw)
@@ -3194,9 +3193,9 @@ Package cleveref Info: loaded `spanish' language definitions on input line 13.
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-LaTeX Info: Redefining \. on input line 13.
-LaTeX Info: Redefining \% on input line 13.
-Package cleveref Info: loaded `spanish' language definitions on input line 13.
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+Package cleveref Info: loaded `spanish' language definitions on input line 11.
 \openout6 = `tfgtfmthesisuam.mw'.
 
  [19 <./img/matriz_confusion_1_normalizada.pdf>]
@@ -3216,24 +3215,22 @@ Package cleveref Info: loaded `spanish' language definitions on input line 45.
 
 Figure feature_importance_1 with width data
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 70.
-LaTeX Info: Redefining \% on input line 70.
-Package cleveref Info: loaded `spanish' language definitions on input line 70.
+LaTeX Info: Redefining \. on input line 69.
+LaTeX Info: Redefining \% on input line 69.
+Package cleveref Info: loaded `spanish' language definitions on input line 69.
 \openout6 = `tfgtfmthesisuam.mw'.
 
  [21 <./img/feature_importance_1.pdf>] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
- (./resultados/exp2.tex
+
+(./resultados/exp2.tex
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
 Package cleveref Info: loaded `spanish' language definitions on input line 4.
 \openout6 = `tfgtfmthesisuam.mw'.
 
-
-[22] (./tfgtfmthesisuam.mw)
+ [22] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3262,16 +3259,16 @@ Package cleveref Info: loaded `spanish' language definitions on input line 44.
 
 Figure feature_importance_2 with width data
 )
-Overfull \hbox (11.59447pt too wide) in paragraph at lines 49--71
+Overfull \hbox (11.59447pt too wide) in paragraph at lines 49--70
 []\T1/txss/m/n/11 En ge-ne-ral, es-te ex-pe-ri-men-to ofre-ce una ver-si�n m�s 
 es-tric-ta del mo-de-lo evi-tan-do el \T1/pcr/m/n/11 data leakage\T1/txss/m/n/1
 1 .
  []
 
 (./resultados/cmp_exp.tex
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-Package cleveref Info: loaded `spanish' language definitions on input line 3.
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+Package cleveref Info: loaded `spanish' language definitions on input line 4.
 \openout6 = `tfgtfmthesisuam.mw'.
 
  [25 <./img/feature_importance_2.pdf>]
@@ -3297,9 +3294,9 @@ Package cleveref Info: loaded `spanish' language definitions on input line 11.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 51.
-LaTeX Info: Redefining \% on input line 51.
-Package cleveref Info: loaded `spanish' language definitions on input line 51.
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
+Package cleveref Info: loaded `spanish' language definitions on input line 54.
 \openout6 = `tfgtfmthesisuam.mw'.
 
  [27]
@@ -3308,27 +3305,24 @@ Package cleveref Info: loaded `spanish' language definitions on input line 51.
 
 
 Figure comparacion_feature_importance_comunes with width data
-) (./tfgtfmthesisuam.bbl
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-Package cleveref Info: loaded `spanish' language definitions on input line 1.
+)
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
+Package cleveref Info: loaded `spanish' language definitions on input line 71.
 \openout6 = `tfgtfmthesisuam.mw'.
 
  [28 <./img/comparacion_feature_importance_comunes.pdf>] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-)
-No file tfgtfmthesisuam.gls.
-No file tfgtfmthesisuam.acr.
+Cap\'{\i }tulo 5.
+(./conclusiones/conclusiones.tex) (./tfgtfmthesisuam.bbl
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[29
+ [29
 
-] (./tfgtfmthesisuam.mw)
+]
+(./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3342,11 +3336,34 @@ No file tfgtfmthesisuam.acr.
 ] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
-LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <39> not available
-(Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 72.
+
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+)
+No file tfgtfmthesisuam.gls.
+No file tfgtfmthesisuam.acr.
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [31]
+[31] (./tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+ [32
+
+] (./tfgtfmthesisuam.mw)
+\openout6 = `tfgtfmthesisuam.mw'.
+
+LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <39> not available
+(Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 73.
+\openout6 = `tfgtfmthesisuam.mw'.
+
+ [33]
 (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
@@ -3356,109 +3373,109 @@ LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <39> not available
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [32] (./tfgtfmthesisuam.mw)
+ [34] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 
 Apéndices A.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 74.
+(hyperref)                removing `\mathsurround' on input line 75.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 74.
+(hyperref)                removing `\z@' on input line 75.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 74.
+(hyperref)                removing `superscript' on input line 75.
 
-LaTeX Font Info:    Calculating math sizes for size <32> on input line 74.
+LaTeX Font Info:    Calculating math sizes for size <32> on input line 75.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <32> not available
-(Font)              size <24.88> substituted on input line 74.
+(Font)              size <24.88> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22.3999> not available
-(Font)              size <20.74> substituted on input line 74.
+(Font)              size <20.74> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 74.
+(Font)              size <17.28> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <32> not available
-(Font)              size <24.88> substituted on input line 74.
+(Font)              size <24.88> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <22.3999> not available
-(Font)              size <20.74> substituted on input line 74.
+(Font)              size <20.74> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16> not available
-(Font)              size <17.28> substituted on input line 74.
+(Font)              size <17.28> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <32> not available
-(Font)              size <24.88> substituted on input line 74.
+(Font)              size <24.88> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <22.3999> not available
-(Font)              size <20.74> substituted on input line 74.
+(Font)              size <20.74> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 74.
+(Font)              size <17.28> substituted on input line 75.
 
 LaTeX Font Info:    Font shape `T1/pxss/b/sc' in size <22.3999> not available
-(Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 74.
+(Font)              Font shape `T1/pxss/bx/sc' tried instead on input line 75.
 LaTeX Font Info:    Trying to load font information for TS1+pxss on input line 
-74.
+75.
 (/usr/share/texlive/texmf-dist/tex/latex/pxfonts/ts1pxss.fd
 File: ts1pxss.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    Font shape `TS1/pxss/b/sc' in size <22.3999> not available
-(Font)              Font shape `TS1/pxss/bx/sc' tried instead on input line 74.
+(Font)              Font shape `TS1/pxss/bx/sc' tried instead on input line 75.
 
 LaTeX Font Info:    Font shape `TS1/pxss/bx/sc' in size <22.3999> not available
 
-(Font)              Font shape `TS1/pxss/bx/n' tried instead on input line 74.
+(Font)              Font shape `TS1/pxss/bx/n' tried instead on input line 75.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <32> not available
-(Font)              size <24.88> substituted on input line 74.
+(Font)              size <24.88> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <22.3999> not available
-(Font)              size <20.74> substituted on input line 74.
+(Font)              size <20.74> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 74.
+(Font)              size <17.28> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <32> not available
-(Font)              size <24.88> substituted on input line 74.
+(Font)              size <24.88> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <22.3999> not available
-(Font)              size <20.74> substituted on input line 74.
+(Font)              size <20.74> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <16> not available
-(Font)              size <17.28> substituted on input line 74.
+(Font)              size <17.28> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <32> not available
-(Font)              size <24.88> substituted on input line 74.
+(Font)              size <24.88> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <22.3999> not available
-(Font)              size <20.74> substituted on input line 74.
+(Font)              size <20.74> substituted on input line 75.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 74.
+(Font)              size <17.28> substituted on input line 75.
 
 (./varios/wordlatex.tex
 \@gls@deffile=\write142
@@ -3683,7 +3700,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[33
+[35
 
 ] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3709,18 +3726,18 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 \openout6 = `tfgtfmthesisuam.mw'.
 
 )
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
-Package cleveref Info: loaded `spanish' language definitions on input line 76.
+LaTeX Info: Redefining \. on input line 77.
+LaTeX Info: Redefining \% on input line 77.
+Package cleveref Info: loaded `spanish' language definitions on input line 77.
 LaTeX Font Info:    Font shape `T1/txss/m/sc' will be
-(Font)              scaled to size 7.31494pt on input line 76.
+(Font)              scaled to size 7.31494pt on input line 77.
 LaTeX Font Info:    Font shape `TS1/txss/m/sc' in size <7.69997> not available
-(Font)              Font shape `TS1/txss/m/n' tried instead on input line 76.
+(Font)              Font shape `TS1/txss/m/n' tried instead on input line 77.
 LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
-(Font)              scaled to size 7.31494pt on input line 76.
+(Font)              scaled to size 7.31494pt on input line 77.
 \openout6 = `tfgtfmthesisuam.mw'.
 
- [34] (./tfgtfmthesisuam.mw)
+ [36] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -3737,7 +3754,7 @@ LaTeX Font Info:    Font shape `TS1/txss/m/n' will be
 No file tfgtfmthesisuam.ind.
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[35
+[37
 
 
 ] (./tfgtfmthesisuam.mw)
@@ -3769,13 +3786,49 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-[36 <./logoUAMw.png>] (./tfgtfmthesisuam.mw)
+[38 <./logoUAMw.png>] (./tfgtfmthesisuam.mw)
 \openout6 = `tfgtfmthesisuam.mw'.
 
  (./tfgtfmthesisuam.aux
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
 Package cleveref Info: loaded `spanish' language definitions on input line 19.
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
+\openout6 = `tfgtfmthesisuam.mw'.
+
 \openout6 = `tfgtfmthesisuam.mw'.
 
 \openout6 = `tfgtfmthesisuam.mw'.
@@ -4244,7 +4297,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 \openout6 = `tfgtfmthesisuam.out'.
 
 Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
-(rerunfilecheck)             Checksum: 372815BA9D2246FADDFC835D5F96D492;2436.
+(rerunfilecheck)             Checksum: B15106EDCB2A7F3D142084886475A4A9;2555.
 \openout6 = `tfgtfmthesisuam.idx'.
 
 \openout6 = `tfgtfmthesisuam.glo'.
@@ -4269,10 +4322,10 @@ Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
 
  ) 
 Here is how much of TeX's memory you used:
- 53409 strings out of 474222
- 1167531 string characters out of 5748733
- 2031682 words of memory out of 5000000
- 73219 multiletter control sequences out of 15000+600000
+ 53481 strings out of 474222
+ 1169008 string characters out of 5748733
+ 2029748 words of memory out of 5000000
+ 73237 multiletter control sequences out of 15000+600000
  679128 words of font info for 224 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,12n,107p,2398b,1797s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -4297,10 +4350,10 @@ f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
 elvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb
 8a.pfb>
-Output written on tfgtfmthesisuam.pdf (54 pages, 2707773 bytes).
+Output written on tfgtfmthesisuam.pdf (56 pages, 2560797 bytes).
 PDF statistics:
- 721 PDF objects out of 1000 (max. 8388607)
- 575 compressed objects within 6 object streams
- 150 named destinations out of 1000 (max. 500000)
- 318 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 742 PDF objects out of 1000 (max. 8388607)
+ 594 compressed objects within 6 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 334 words of extra memory for PDF output out of 10000 (max. 10000000)
 
