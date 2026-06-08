@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  8 JUN 2026 20:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  8 JUN 2026 20:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1316,9 +1316,9 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-2026681228.tex)...disabled (restricted).
+runsystem(touch w18-test-2026681244.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-2026681228.tex)...disabled (restricted).
+runsystem(rm -f w18-test-2026681244.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
@@ -2869,8 +2869,12 @@ l.8
 
 \openout6 = `tfgtfmthesisuam.mw'.
 
-) (./introduccion/objetivos.tex)
-(./introduccion/estructura.tex)
+) (./introduccion/objetivos.tex
+Begining itemize
+LaTeX Font Info:    Font shape `T1/txss/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 3.
+Ending itemize
+) (./introduccion/estructura.tex)
 LaTeX Info: Redefining \. on input line 50.
 LaTeX Info: Redefining \% on input line 50.
 Package cleveref Info: loaded `spanish' language definitions on input line 50.
@@ -2941,8 +2945,6 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 1.
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 Figure metodologia2 with width data
-LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 5.
 LaTeX Font Info:    Font shape `T1/txss/b/n' in size <9> not available
 (Font)              Font shape `T1/txss/bx/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
@@ -4322,11 +4324,11 @@ Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
 
  ) 
 Here is how much of TeX's memory you used:
- 53481 strings out of 474222
- 1169008 string characters out of 5748733
- 2029748 words of memory out of 5000000
- 73237 multiletter control sequences out of 15000+600000
- 679128 words of font info for 224 fonts, out of 8000000 for 9000
+ 53493 strings out of 474222
+ 1169162 string characters out of 5748733
+ 2029744 words of memory out of 5000000
+ 73245 multiletter control sequences out of 15000+600000
+ 680673 words of font info for 230 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,12n,107p,2398b,1797s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
@@ -4339,21 +4341,22 @@ t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
 ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxbss.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxss.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/txfonts/rtxbsssc.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/txfonts/rtxsssc.pfb></usr/share/texmf/fonts/type1/
-public/cm-super/sfrb0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
-0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
-elvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb
-8a.pfb>
-Output written on tfgtfmthesisuam.pdf (56 pages, 2560797 bytes).
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxbss.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/txfonts/rtcxss.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/txfonts/rtxbsssc.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/txfonts/rtxsssc.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sfrb0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
+/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb>
+
+Output written on tfgtfmthesisuam.pdf (56 pages, 2569320 bytes).
 PDF statistics:
- 742 PDF objects out of 1000 (max. 8388607)
- 594 compressed objects within 6 object streams
+ 747 PDF objects out of 1000 (max. 8388607)
+ 597 compressed objects within 6 object streams
  154 named destinations out of 1000 (max. 500000)
  334 words of extra memory for PDF output out of 10000 (max. 10000000)
 
