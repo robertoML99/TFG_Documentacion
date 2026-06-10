@@ -1,3 +1,19 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{abdulganiyu2023systematic}
+O.~H. Abdulganiyu, T.~Ait~Tchakoucht, and Y.~K. Saheed, ``A systematic
+  literature review for network intrusion detection system (ids),'' {\em
+  International Journal of Information Security}, 2023.
+
+\bibitem{kunal2019mlids}
+Kunal and M.~Dua, ``Machine learning approach to ids: A comprehensive review,''
+  in {\em Proceedings of the Third International Conference on Electronics
+  Communication and Aerospace Technology (ICECA)}, pp.~117--121, IEEE, 2019.
+
+\bibitem{neupane2022xids}
+S.~Neupane, J.~Ables, W.~Anderson, S.~Mittal, S.~Rahimi, I.~Banicescu, and
+  M.~Seale, ``Explainable intrusion detection systems (x-ids): A survey of
+  current methods, challenges, and opportunities,'' {\em IEEE Access}, vol.~10,
+  pp.~112392--112415, 2022.
 
 \end{thebibliography}
