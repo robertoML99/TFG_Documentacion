@@ -16,4 +16,27 @@ S.~Neupane, J.~Ables, W.~Anderson, S.~Mittal, S.~Rahimi, I.~Banicescu, and
   current methods, challenges, and opportunities,'' {\em IEEE Access}, vol.~10,
   pp.~112392--112415, 2022.
 
+\bibitem{zamani2015mlids}
+M.~Zamani and M.~Movahedi, ``Machine learning techniques for intrusion
+  detection,'' {\em arXiv preprint arXiv:1312.2177}, 2015.
+
+\bibitem{buczak2016survey}
+A.~L. Buczak and E.~Guven, ``A survey of data mining and machine learning
+  methods for cyber security intrusion detection,'' {\em IEEE Communications
+  Surveys and Tutorials}, vol.~18, no.~2, pp.~1153--1176, 2016.
+
+\bibitem{wagh2013surveyids}
+S.~K. Wagh, V.~K. Pachghare, and S.~R. Kolhe, ``Survey on intrusion detection
+  system using machine learning techniques,'' {\em International Journal of
+  Computer Applications}, vol.~78, no.~16, pp.~30--37, 2013.
+
+\bibitem{halimaa2019mlbasedids}
+A.~A. Halimaa and K.~Sundarakantham, ``Machine learning based intrusion
+  detection system,'' in {\em Proceedings of the Third International Conference
+  on Trends in Electronics and Informatics (ICOEI)}, pp.~916--920, IEEE, 2019.
+
+\bibitem{breiman2001randomforest}
+L.~Breiman, ``Random forests,'' {\em Machine Learning}, vol.~45, no.~1,
+  pp.~5--32, 2001.
+
 \end{thebibliography}
