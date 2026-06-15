@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  15 JUN 2026 19:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  15 JUN 2026 20:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1316,9 +1316,9 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-20266151194.tex)...disabled (restricted).
+runsystem(touch w18-test-20266151211.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20266151194.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20266151211.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
@@ -3918,7 +3918,7 @@ hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/palatino/uplb8a.pfb>
-Output written on tfgtfmthesisuam.pdf (56 pages, 2569201 bytes).
+Output written on tfgtfmthesisuam.pdf (56 pages, 2569601 bytes).
 PDF statistics:
  762 PDF objects out of 1000 (max. 8388607)
  617 compressed objects within 7 object streams
