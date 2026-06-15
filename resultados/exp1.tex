@@ -1,10 +1,10 @@
-Como se ha mencionado previamente, el primer experimento se compone de los resultados obtenidos siguiendo la metodología de reparto del dataset de la sección \ref{SEC:RF}. Esta consiste en dividir el conjunto de datos por registros de forma aleatoria, causando un posible \texttt{data leakage} por la presencia de identificadores de flujo repetidos en ambos subconjuntos, aumentando falsamente la precisión en la clasificación de las clases con más identificadores de flujo repetidos.
+Como se ha mencionado previamente, el primer experimento se compone de los resultados obtenidos siguiendo la metodología de reparto del dataset de la sección \ref{SEC:RF}. Esta consiste en dividir el conjunto de datos por registros de forma aleatoria.
 
 Lo primero a analizar es la matriz de confusión, la cual se representa normalizada en la figura \ref{FIG:MATRIZ1}. Como se puede ver, la mayoría de clases tienen porcentajes muy elevados de aciertos en la diagonal principal, lo cual indica que el modelo clasifica correctamente la mayoría de muestras de estas clases. No obstante, también se pueden ver clases en las que el clasificador falla. En el caso de \texttt{Infiltration}, un tercio de las muestras se confunden con tráfico benigno. Donde más ha fallado el modelo es en la clasificación de ataques web. Se puede apreciar una gran confusión entre \texttt{Web Attack Brute Force} y \texttt{Web Attack XSS}, donde el modelo identifica patrones similares para ambas clases. En cuanto a \texttt{Web Attack Sql Injection}, se clasifica un $60\%$  de muestras como tráfico benigno, lo cual indica que las características definidas no son suficientes para establecer patrones que vinculen estos ataques a su correspondiente clase.
 
 \begin{figure}[htb]
     \centering
-    \includegraphics[width=.95\textwidth]{img/matriz_confusion_1_normalizada.pdf}
+    \includegraphics[width=.90\textwidth]{img/matriz_confusion_1_normalizada.pdf}
     \caption{Matriz de confusión normalizada del experimento 1.}\label{FIG:MATRIZ1}
 \end{figure}
 
@@ -47,7 +47,7 @@ Finalmente obtenemos las 20 características más relevantes a la hora de clasif
 
 \begin{figure}[htb]
     \centering
-    \includegraphics[width=.95\textwidth]{img/feature_importance_1.pdf}
+    \includegraphics[width=.90\textwidth]{img/feature_importance_1.pdf}
     \caption{Características más importantes del experimento 1.}\label{FIG:importance_1}
 \end{figure}
 
