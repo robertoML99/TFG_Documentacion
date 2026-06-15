@@ -1,5 +1,8 @@
 En este capítulo se explicará con detalle la metodología del trabajo. En la figura \ref{FIG:DIAGRAMA} se puede ver un esquema del procedimiento. El primer paso es obtener una base experimental que servirá como partida, en este caso un conjunto de datos con ficheros PCAP y csv con características asociadas. Se definirán además nuevas características para enriquecer el conjunto de datos de partida. Tras esto, se desarrollarán scripts de Python en los que con el uso de la herramienta \texttt{tshark}, se obtendrán datos de cada paquete para calcular las nuevas características y añadirlas al conjunto de datos. Una vez enriquecido el conjunto de datos, se lleva a cabo un preprocesamiento de este con el objetivo de que sirva de entrada para entrenar y evaluar al modelo de clasificación.
 
-\begin{figure}{FIG:DIAGRAMA}{Diagrama general del sistema.}
-    \image{12cm}{}{metodologia2}
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=.95\textwidth]{img/metodologia2.pdf}
+    \caption{Diagrama general del sistema}\label{FIG:DIAGRAMA}
 \end{figure}

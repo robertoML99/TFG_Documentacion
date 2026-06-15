@@ -1376,7 +1376,7 @@
 % Figure float structure
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\renewenvironment{figure}[3][]
+\newenvironment{figura}[3][]
 {
 	\def\my@auxcaptiontext{#3}
 	\ifx&#1& \def\my@auxcaptiontextshort{} \else \def\my@auxcaptiontextshort{#1} \fi
@@ -3137,18 +3137,18 @@ coordinates {(#1,0) (#2,0)};
 	\if@nonelistbool\empty\else
 		\if@alllistsbool
 			\@newschapter{\@ListsChapter}
-			\listofalgorithms{\@auxvaralgorithmindex}
+			%\listofalgorithms{\@auxvaralgorithmindex}
 			\mylistof{\@auxvarcodeindex}{lol}
-			\if@languagespa \listoftextboxes{\@auxvartextboxindex} \fi
+			%\if@languagespa \listoftextboxes{\@auxvartextboxindex} \fi
 	    \mylistof{\listequationname}{loe}
 			\mylistof{\listfigurename}{lof}
 			\mylistof{\listtablename}{lot}
-			\if@languagespa  \listoftextboxes{\@auxvartextboxindex} \fi
+			%\if@languagespa  \listoftextboxes{\@auxvartextboxindex} \fi
 		\else
 			\@newschapter{\@ListsChapter}
-			\if@algorithmsbool \listofalgorithms{\@auxvaralgorithmindex} \fi
+			%\if@algorithmsbool \listofalgorithms{\@auxvaralgorithmindex} \fi
 			\if@codesbool \mylistof{\@auxvarcodeindex}{lol} \fi
-			\if@languagespa \else \if@textboxesbool \listoftextboxes{\@auxvartextboxindex} \fi \fi
+			%\if@languagespa \else \if@textboxesbool \listoftextboxes{\@auxvartextboxindex} \fi \fi
 			\if@equationsbool \mylistof{\listequationname}{loe} \fi
 			\if@figuresbool \mylistof{\listfigurename}{lof} \fi
 			\if@tablesbool \mylistof{\listtablename}{lot} \fi
