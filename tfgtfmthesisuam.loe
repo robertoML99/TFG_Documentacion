@@ -6,14 +6,14 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\hbox to\@tempdima {3.1\hfil } Entropía de Shannon\relax }{11}{equation.3.2.1}%
-\contentsline {table}{\hbox to\@tempdima {3.2\hfil } Probabilidad estimada de aparicion de un byte en el payload\relax }{11}{equation.3.2.2}%
-\contentsline {table}{\hbox to\@tempdima {3.3\hfil } Entropía de Shannon de un paquete/flujo\relax }{11}{equation.3.2.3}%
-\contentsline {table}{\hbox to\@tempdima {3.5\hfil } Entropía media por paquete del flujo\relax }{12}{equation.3.2.5}%
-\contentsline {table}{\hbox to\@tempdima {3.6\hfil } Desviación típica de la entropía por paquete del flujo\relax }{13}{equation.3.2.6}%
-\contentsline {table}{\hbox to\@tempdima {3.7\hfil } Entropía máxima por paquete del flujo\relax }{13}{equation.3.2.7}%
-\contentsline {table}{\hbox to\@tempdima {3.8\hfil } Ratio de paquetes con entropía nula en el flujo\relax }{14}{equation.3.2.8}%
-\contentsline {table}{\hbox to\@tempdima {3.9\hfil } Ratio de bytes imprimibles\relax }{14}{equation.3.2.9}%
+\contentsline {table}{\hbox to\@tempdima {3.1\hfil } Entropía de Shannon\relax }{13}{equation.3.2.1}%
+\contentsline {table}{\hbox to\@tempdima {3.2\hfil } Probabilidad estimada de aparicion de un byte en el payload\relax }{13}{equation.3.2.2}%
+\contentsline {table}{\hbox to\@tempdima {3.3\hfil } Entropía de Shannon de un paquete/flujo\relax }{13}{equation.3.2.3}%
+\contentsline {table}{\hbox to\@tempdima {3.5\hfil } Entropía media por paquete del flujo\relax }{14}{equation.3.2.5}%
+\contentsline {table}{\hbox to\@tempdima {3.6\hfil } Desviación típica de la entropía por paquete del flujo\relax }{15}{equation.3.2.6}%
+\contentsline {table}{\hbox to\@tempdima {3.7\hfil } Entropía máxima por paquete del flujo\relax }{15}{equation.3.2.7}%
+\contentsline {table}{\hbox to\@tempdima {3.8\hfil } Ratio de paquetes con entropía nula en el flujo\relax }{16}{equation.3.2.8}%
+\contentsline {table}{\hbox to\@tempdima {3.9\hfil } Ratio de bytes imprimibles\relax }{16}{equation.3.2.9}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
