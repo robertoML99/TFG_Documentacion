@@ -15,88 +15,91 @@ R.~Carranco and B.~Coll, ``{Un grupo de hackers pide entre uno y tres millones
 \newblock Accedido: 3 de marzo de 2026.
 
 \bibitem{abdulganiyu2023systematic}
-O.~H. Abdulganiyu, T.~Ait~Tchakoucht, and Y.~K. Saheed, ``A systematic
-  literature review for network intrusion detection system (ids),'' {\em
+O.~H. Abdulganiyu, T.~Ait~Tchakoucht, and Y.~K. Saheed, ``{A systematic
+  literature review for network intrusion detection system ({IDS})},'' {\em
   International Journal of Information Security}, 2023.
 
 \bibitem{kunal2019mlids}
-Kunal and M.~Dua, ``Machine learning approach to ids: A comprehensive review,''
-  in {\em Proceedings of the Third International Conference on Electronics
-  Communication and Aerospace Technology (ICECA)}, pp.~117--121, IEEE, 2019.
+Kunal and M.~Dua, ``{Machine Learning Approach to {IDS}: A Comprehensive
+  Review},'' in {\em Proceedings of the Third International Conference on
+  Electronics Communication and Aerospace Technology ({ICECA})}, pp.~117--121,
+  IEEE, 2019.
 
 \bibitem{neupane2022xids}
 S.~Neupane, J.~Ables, W.~Anderson, S.~Mittal, S.~Rahimi, I.~Banicescu, and
-  M.~Seale, ``Explainable intrusion detection systems (x-ids): A survey of
-  current methods, challenges, and opportunities,'' {\em IEEE Access}, vol.~10,
-  pp.~112392--112415, 2022.
+  M.~Seale, ``{Explainable Intrusion Detection Systems ({X-IDS}): A Survey of
+  Current Methods, Challenges, and Opportunities},'' {\em IEEE Access},
+  vol.~10, pp.~112392--112415, 2022.
 
 \bibitem{zamani2015mlids}
-M.~Zamani and M.~Movahedi, ``Machine learning techniques for intrusion
-  detection,'' {\em arXiv preprint arXiv:1312.2177}, 2015.
+M.~Zamani and M.~Movahedi, ``{Machine Learning Techniques for Intrusion
+  Detection},'' {\em arXiv preprint arXiv:1312.2177}, 2015.
 
 \bibitem{buczak2016survey}
-A.~L. Buczak and E.~Guven, ``A survey of data mining and machine learning
-  methods for cyber security intrusion detection,'' {\em IEEE Communications
+A.~L. Buczak and E.~Guven, ``{A Survey of Data Mining and Machine Learning
+  Methods for Cyber Security Intrusion Detection},'' {\em IEEE Communications
   Surveys and Tutorials}, vol.~18, no.~2, pp.~1153--1176, 2016.
 
 \bibitem{wagh2013surveyids}
-S.~K. Wagh, V.~K. Pachghare, and S.~R. Kolhe, ``Survey on intrusion detection
-  system using machine learning techniques,'' {\em International Journal of
+S.~K. Wagh, V.~K. Pachghare, and S.~R. Kolhe, ``{Survey on Intrusion Detection
+  System using Machine Learning Techniques},'' {\em International Journal of
   Computer Applications}, vol.~78, no.~16, pp.~30--37, 2013.
 
 \bibitem{halimaa2019mlbasedids}
-A.~A. Halimaa and K.~Sundarakantham, ``Machine learning based intrusion
-  detection system,'' in {\em Proceedings of the Third International Conference
-  on Trends in Electronics and Informatics (ICOEI)}, pp.~916--920, IEEE, 2019.
+A.~A. Halimaa and K.~Sundarakantham, ``{Machine Learning Based Intrusion
+  Detection System},'' in {\em Proceedings of the Third International
+  Conference on Trends in Electronics and Informatics ({ICOEI})}, pp.~916--920,
+  IEEE, 2019.
 
 \bibitem{breiman2001randomforest}
-L.~Breiman, ``Random forests,'' {\em Machine Learning}, vol.~45, no.~1,
+L.~Breiman, ``{Random Forests},'' {\em Machine Learning}, vol.~45, no.~1,
   pp.~5--32, 2001.
 
 \bibitem{negandhi2019randomforestnslkdd}
-P.~Negandhi, Y.~Trivedi, and R.~Mangrulkar, ``Intrusion detection system using
-  random forest on the {NSL-KDD} dataset,'' in {\em Emerging Research in
+P.~Negandhi, Y.~Trivedi, and R.~Mangrulkar, ``{Intrusion Detection System Using
+  Random Forest on the {NSL-KDD} Dataset},'' in {\em Emerging Research in
   Computing, Information, Communication and Applications} (N.~R. Shetty, L.~M.
   Patnaik, H.~C. Nagaraj, P.~N. Hamsavath, and N.~Nalini, eds.), vol.~906 of
   {\em Advances in Intelligent Systems and Computing}, pp.~519--532, Springer,
   2019.
 
 \bibitem{li2014knnwsnids}
-W.~Li, P.~Yi, Y.~Wu, L.~Pan, and J.~Li, ``A new intrusion detection system
-  based on knn classification algorithm in wireless sensor network,'' {\em
+W.~Li, P.~Yi, Y.~Wu, L.~Pan, and J.~Li, ``{A New Intrusion Detection System
+  Based on {KNN} Classification Algorithm in Wireless Sensor Network},'' {\em
   Journal of Electrical and Computer Engineering}, vol.~2014, p.~240217, 2014.
 
 \bibitem{meng2009kmeansids}
-J.~Meng, H.~Shang, and L.~Bian, ``The application on intrusion detection based
-  on k-means cluster algorithm,'' in {\em Proceedings of the 2009 International
-  Forum on Information Technology and Applications}, pp.~150--152, IEEE, 2009.
+J.~Meng, H.~Shang, and L.~Bian, ``{The Application on Intrusion Detection Based
+  on {K-means} Cluster Algorithm},'' in {\em Proceedings of the 2009
+  International Forum on Information Technology and Applications},
+  pp.~150--152, IEEE, 2009.
 
 \bibitem{thakkar2021reviewiotids}
-A.~Thakkar and R.~Lohiya, ``A review on machine learning and deep learning
-  perspectives of ids for iot: Recent updates, security issues, and
-  challenges,'' {\em Archives of Computational Methods in Engineering},
+A.~Thakkar and R.~Lohiya, ``{A Review on Machine Learning and Deep Learning
+  Perspectives of {IDS} for {IoT}: Recent Updates, Security Issues, and
+  Challenges},'' {\em Archives of Computational Methods in Engineering},
   vol.~28, pp.~3211--3243, 2021.
 
 \bibitem{sharafaldin2018cicids2017}
-I.~Sharafaldin, A.~H. Lashkari, and A.~A. Ghorbani, ``Toward generating a new
-  intrusion detection dataset and intrusion traffic characterization,'' in {\em
-  Proceedings of the 4th International Conference on Information Systems
-  Security and Privacy (ICISSP)}, pp.~108--116, 2018.
+I.~Sharafaldin, A.~H. Lashkari, and A.~A. Ghorbani, ``{Toward Generating a New
+  Intrusion Detection Dataset and Intrusion Traffic Characterization},'' in
+  {\em Proceedings of the 4th International Conference on Information Systems
+  Security and Privacy ({ICISSP})}, pp.~108--116, 2018.
 
 \bibitem{tavallaee2009kdd}
-M.~Tavallaee, E.~Bagheri, W.~Lu, and A.~A. Ghorbani, ``A detailed analysis of
-  the {KDD CUP 99} data set,'' in {\em Proceedings of the 2009 IEEE Symposium
-  on Computational Intelligence in Security and Defense Applications (CISDA)},
-  IEEE, 2009.
+M.~Tavallaee, E.~Bagheri, W.~Lu, and A.~A. Ghorbani, ``{A Detailed Analysis of
+  the {KDD CUP 99} Data Set},'' in {\em Proceedings of the 2009 IEEE Symposium
+  on Computational Intelligence in Security and Defense Applications
+  ({CISDA})}, IEEE, 2009.
 
 \bibitem{moustafa2015unswnb15}
-N.~Moustafa and J.~Slay, ``{UNSW-NB15}: A comprehensive data set for network
-  intrusion detection systems,'' in {\em Proceedings of the 2015 Military
-  Communications and Information Systems Conference (MilCIS)}, IEEE, 2015.
+N.~Moustafa and J.~Slay, ``{{UNSW-NB15}: A Comprehensive Data Set for Network
+  Intrusion Detection Systems},'' in {\em Proceedings of the 2015 Military
+  Communications and Information Systems Conference ({MilCIS})}, IEEE, 2015.
 
 \bibitem{leevy2020csecicids2018}
-J.~L. Leevy and T.~M. Khoshgoftaar, ``A survey and analysis of intrusion
-  detection models based on {CSE-CIC-IDS2018} big data,'' {\em Journal of Big
+J.~L. Leevy and T.~M. Khoshgoftaar, ``{A Survey and Analysis of Intrusion
+  Detection Models Based on {CSE-CIC-IDS2018} Big Data},'' {\em Journal of Big
   Data}, vol.~7, no.~104, 2020.
 
 \end{thebibliography}

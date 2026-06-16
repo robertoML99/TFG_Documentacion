@@ -9,6 +9,18 @@
 
 \documentclass[epsbased,copyright,final,printable,covers,extendedindex,firstnumbered,tfg,gnuplot]{tfgtfmthesisuam}
 
+% Mejora el corte de URLs largas en la bibliografía
+\usepackage{xurl}
+
+% Permite modificar el entorno de bibliografía
+\usepackage{etoolbox}
+
+% Evita que la bibliografía quede justificada de forma forzada
+\AtBeginEnvironment{thebibliography}{\raggedright\sloppy}
+
+% Mantiene el mismo estilo de letra en las URLs
+\urlstyle{same}
+
 \advisor{Daniel Perdices Burrero}
 \levelin{Ingeniería Informática}
 \title{Detección de intrusiones en la red mediante aprendizaje automático}
