@@ -53,6 +53,19 @@ A.~A. Halimaa and K.~Sundarakantham, ``Machine learning based intrusion
 L.~Breiman, ``Random forests,'' {\em Machine Learning}, vol.~45, no.~1,
   pp.~5--32, 2001.
 
+\bibitem{negandhi2019randomforestnslkdd}
+P.~Negandhi, Y.~Trivedi, and R.~Mangrulkar, ``Intrusion detection system using
+  random forest on the {NSL-KDD} dataset,'' in {\em Emerging Research in
+  Computing, Information, Communication and Applications} (N.~R. Shetty, L.~M.
+  Patnaik, H.~C. Nagaraj, P.~N. Hamsavath, and N.~Nalini, eds.), vol.~906 of
+  {\em Advances in Intelligent Systems and Computing}, pp.~519--532, Springer,
+  2019.
+
+\bibitem{li2014knnwsnids}
+W.~Li, P.~Yi, Y.~Wu, L.~Pan, and J.~Li, ``A new intrusion detection system
+  based on knn classification algorithm in wireless sensor network,'' {\em
+  Journal of Electrical and Computer Engineering}, vol.~2014, p.~240217, 2014.
+
 \bibitem{meng2009kmeansids}
 J.~Meng, H.~Shang, and L.~Bian, ``The application on intrusion detection based
   on k-means cluster algorithm,'' in {\em Proceedings of the 2009 International
