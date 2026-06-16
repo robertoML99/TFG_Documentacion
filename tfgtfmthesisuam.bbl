@@ -53,6 +53,17 @@ A.~A. Halimaa and K.~Sundarakantham, ``Machine learning based intrusion
 L.~Breiman, ``Random forests,'' {\em Machine Learning}, vol.~45, no.~1,
   pp.~5--32, 2001.
 
+\bibitem{meng2009kmeansids}
+J.~Meng, H.~Shang, and L.~Bian, ``The application on intrusion detection based
+  on k-means cluster algorithm,'' in {\em Proceedings of the 2009 International
+  Forum on Information Technology and Applications}, pp.~150--152, IEEE, 2009.
+
+\bibitem{thakkar2021reviewiotids}
+A.~Thakkar and R.~Lohiya, ``A review on machine learning and deep learning
+  perspectives of ids for iot: Recent updates, security issues, and
+  challenges,'' {\em Archives of Computational Methods in Engineering},
+  vol.~28, pp.~3211--3243, 2021.
+
 \bibitem{sharafaldin2018cicids2017}
 I.~Sharafaldin, A.~H. Lashkari, and A.~A. Ghorbani, ``Toward generating a new
   intrusion detection dataset and intrusion traffic characterization,'' in {\em

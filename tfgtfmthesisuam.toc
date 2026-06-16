@@ -6,7 +6,7 @@
 \contentsline {chapter}{\numberline {2}Estado del arte}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Sistemas de detección de intrusiones}{5}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Aprendizaje automático y modelos aplicados a IDS}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Conjuntos de datos para IDS}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Conjuntos de datos para IDS}{9}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Metodología}{13}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Obtención de la base experimental.}{14}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Definición de nuevas características.}{15}{section.3.2}%
