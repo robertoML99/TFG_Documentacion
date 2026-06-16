@@ -53,4 +53,26 @@ A.~A. Halimaa and K.~Sundarakantham, ``Machine learning based intrusion
 L.~Breiman, ``Random forests,'' {\em Machine Learning}, vol.~45, no.~1,
   pp.~5--32, 2001.
 
+\bibitem{sharafaldin2018cicids2017}
+I.~Sharafaldin, A.~H. Lashkari, and A.~A. Ghorbani, ``Toward generating a new
+  intrusion detection dataset and intrusion traffic characterization,'' in {\em
+  Proceedings of the 4th International Conference on Information Systems
+  Security and Privacy (ICISSP)}, pp.~108--116, 2018.
+
+\bibitem{tavallaee2009kdd}
+M.~Tavallaee, E.~Bagheri, W.~Lu, and A.~A. Ghorbani, ``A detailed analysis of
+  the {KDD CUP 99} data set,'' in {\em Proceedings of the 2009 IEEE Symposium
+  on Computational Intelligence in Security and Defense Applications (CISDA)},
+  IEEE, 2009.
+
+\bibitem{moustafa2015unswnb15}
+N.~Moustafa and J.~Slay, ``{UNSW-NB15}: A comprehensive data set for network
+  intrusion detection systems,'' in {\em Proceedings of the 2015 Military
+  Communications and Information Systems Conference (MilCIS)}, IEEE, 2015.
+
+\bibitem{leevy2020csecicids2018}
+J.~L. Leevy and T.~M. Khoshgoftaar, ``A survey and analysis of intrusion
+  detection models based on {CSE-CIC-IDS2018} big data,'' {\em Journal of Big
+  Data}, vol.~7, no.~104, 2020.
+
 \end{thebibliography}
