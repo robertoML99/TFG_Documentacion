@@ -1,4 +1,4 @@
-La primera de estas es la entropía del flujo, la cual se cálcula mediante la expresión de la entropía de Shannon. Esta mide el grado de aleatoriedad o impredecibilidad de una secuencia de símbolos. Un valor bajo indica un contenido más regular y predecible, mientras que un valor alto indica un contenido más disperso y menos predecible. Sea $X$ una variable aleatoria discreta, la expresión general de la entropía de Shannon es:
+La primera de estas es la entropía del flujo, la cual se calcula mediante la expresión de la entropía de Shannon. Esta mide el grado de aleatoriedad o impredecibilidad de una secuencia de símbolos. Un valor bajo indica un contenido más regular y predecible, mientras que un valor alto indica un contenido más disperso y menos predecible. Sea $X$ una variable aleatoria discreta, la expresión general de la entropía de Shannon es:
 
 \begin{equation}[eq:shannon]{Entropía de Shannon}
 H(X) = - \sum_{i=1}^{n} p(x_i)\log_2\bigl(p(x_i)\bigr),
@@ -6,7 +6,7 @@ H(X) = - \sum_{i=1}^{n} p(x_i)\log_2\bigl(p(x_i)\bigr),
 
 Si se aplica esta definición al problema que se está planteando, se puede deducir que $X \in \{0,1,2,\dots,255\}$, ya que un byte puede tomar 256 valores. En este caso, la probabilidad de aparición de un byte no es una probabilidad exacta, debido a que no se puede saber con certeza la probabilidad de que aparezca ese valor en tráfico real. Por este motivo, la probabilidad de aparición de un byte será una probabilidad estimada, que se obtiene de la siguiente forma:
 
-\begin{equation}{Probabilidad estimada de aparicion de un byte en el payload}
+\begin{equation}{Probabilidad estimada de aparición de un byte en el payload}
 p_i = \frac{n_i}{N},
 \end{equation}donde $n_i$ es el número de veces que aparece el byte $i$ en el flujo y $N$ es el número total de bytes observados.
 Por lo tanto, la expresión de la entropía de Shannon adaptada a este problema queda:
@@ -25,4 +25,4 @@ H(X)
 = 8.
 \end{equation}Este cálculo puede realizarse tanto para un paquete individual como para un flujo de paquetes. En esta sección se ha explicado para el flujo, pero posteriormente se va a utilizar para paquetes individuales, ya que hay algunas características que ahora se explicarán en las que se calcula la entropía para paquetes individuales. Para obtener la entropía del flujo, simplemente se juntan los bytes de todos los \textit{payload} de los paquetes pertenecientes al mismo flujo y se aplica la expresión anterior. En caso de que un paquete perteneciente a un flujo no tenga un payload válido, se ignora y no se agrega al payload global.
 
-En esta sección se ha obtenido la entropía para todo el flujo agregado, pero a partir de esta definición se derivan distintas características por paquete. En estas, se calculará la entropía de cada paquete perteneciente a un flujo y se le aplicarán funciones distintintas funciones estadísticas.
+En esta sección se ha obtenido la entropía para todo el flujo agregado, pero a partir de esta definición se derivan distintas características por paquete. En estas, se calculará la entropía de cada paquete perteneciente a un flujo y se le aplicarán distintas funciones estadísticas.
