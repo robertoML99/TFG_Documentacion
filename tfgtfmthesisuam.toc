@@ -25,7 +25,7 @@
 \contentsline {chapter}{\numberline {4}Resultados}{23}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Análisis exploratorio del conjunto de datos.}{23}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Experimento 1.}{24}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Experimento 2.}{28}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Comparación de los experimentos.}{31}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusiones}{35}{chapter.5}%
-\contentsline {chapter}{Bibliografía}{38}{chapter*.21}%
+\contentsline {section}{\numberline {4.3}Experimento 2.}{26}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Comparación de los experimentos.}{29}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusiones}{37}{chapter.5}%
+\contentsline {chapter}{Bibliografía}{40}{chapter*.21}%
