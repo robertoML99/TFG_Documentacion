@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.20)  19 JUN 2026 13:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.20)  19 JUN 2026 13:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1316,9 +1316,9 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )))
 \verbatim@out=\write5
-runsystem(touch w18-test-2026619789.tex)...disabled (restricted).
+runsystem(touch w18-test-2026619814.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-2026619789.tex)...disabled (restricted).
+runsystem(rm -f w18-test-2026619814.tex)...disabled (restricted).
 
 runsystem(rm -f "tfgtfmthesisuam.gnuploterrors")...disabled (restricted).
 
@@ -3862,7 +3862,7 @@ Package rerunfilecheck Info: File `tfgtfmthesisuam.out' has not changed.
 Here is how much of TeX's memory you used:
  53186 strings out of 474222
  1165699 string characters out of 5748733
- 2031743 words of memory out of 5000000
+ 2031740 words of memory out of 5000000
  73241 multiletter control sequences out of 15000+600000
  647528 words of font info for 165 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3886,7 +3886,7 @@ hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/palatino/uplb8a.pfb>
-Output written on tfgtfmthesisuam.pdf (56 pages, 2580304 bytes).
+Output written on tfgtfmthesisuam.pdf (56 pages, 2580137 bytes).
 PDF statistics:
  796 PDF objects out of 1000 (max. 8388607)
  651 compressed objects within 7 object streams
