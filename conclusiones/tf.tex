@@ -1,0 +1,11 @@
+Como trabajo futuro, se podrían mejorar ciertos aspectos. El primero de estos es la asignación de los valores de las características al identificador de flujo. Una opción sería agrupar los paquetes por identificador de flujo y por ventanas temporales en las que han sido enviados los paquetes en vez de únicamente por el identificador de flujo. Esto se haría para poder diferenciar entre flujos con el mismo identificador. Esta metodología se consideró al principio del trabajo, pero se descartó porque añadía mucha complejidad a la hora de reconstruir los flujos y asignarlos al CSV y se consideró que para el objetivo que se tenía con este trabajo no era necesario.
+
+También se podría mejorar la estrategia de partición del conjunto de datos. La partición estratificada mantiene la proporción de clases pero introduce fuga de información, por lo que se realizó una partición por identificador de flujo. Esta última provoca una partición irregular y la desaparición de la clase \texttt{Infiltration}, disminuyendo el rendimiento. Una posible técnica sería una partición estratificada por grupos definidos por el identificador de flujo, intentando mantener ambos subconjuntos equilibrados y sin fuga de información. 
+
+El conjunto de datos utilizado contiene clases muy desbalanceadas, con algunas clases con centenas de miles de muestras y otras con pocas decenas. Con este contexto, se podría plantear la inclusión de técnicas de balanceo como oversampling o undersampling para así paliar estos problemas. Esto podría mejorar el rendimiento del clasificador en las clases minoritarias.
+
+Otra posibilidad sería implementar clasificadores con otros modelos de aprendizaje automático para realizar la comparación con este. Si se viera que siguiendo la metodología del problema se mejora el rendimiento en alguna clase se podría proponer un enfoque híbrido en el que el IDS se sirviera de varios clasificadores.
+
+Finalmente, se podría probar a utilizar cualquiera de los otros conjuntos de datos descritos en el capítulo \ref{CAP:EST_ARTE} para comprobar que las características definidas siguen siendo relevantes en distintos contextos.
+
+

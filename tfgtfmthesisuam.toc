@@ -8,8 +8,8 @@
 \contentsline {section}{\numberline {2.2}Aprendizaje automático y modelos aplicados a IDS}{6}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Conjuntos de datos para IDS}{9}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Metodología}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Obtención de la base experimental.}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Definición de nuevas características.}{13}{section.3.2}%
+\contentsline {section}{\numberline {3.1}Obtención de la base experimental}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Definición de nuevas características}{13}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Entropía del flujo completo}{13}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Entropía media de los paquetes pertenecientes a un flujo}{14}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Desviación típica de la entropía de los paquetes pertenecientes a un flujo}{15}{subsection.3.2.3}%
@@ -17,15 +17,17 @@
 \contentsline {subsection}{\numberline {3.2.5}Proporción de entropía nula de los paquetes pertenecientes a un flujo}{16}{subsection.3.2.5}%
 \contentsline {subsection}{\numberline {3.2.6}Proporción de bytes imprimibles de un flujo}{16}{subsection.3.2.6}%
 \contentsline {subsection}{\numberline {3.2.7}Proporción de bytes no ASCII de un flujo}{17}{subsection.3.2.7}%
-\contentsline {section}{\numberline {3.3}Enriquecimiento del conjunto de datos.}{17}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Enriquecimiento del conjunto de datos}{17}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Construcción, entrenamiento y evaluación del modelo de aprendizaje automático}{19}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Preparación del conjunto de datos para el modelo}{19}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Entrenamiento del modelo Random Forest}{20}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Evaluación del modelo Random Forest}{22}{subsection.3.4.3}%
 \contentsline {chapter}{\numberline {4}Resultados}{23}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Análisis exploratorio del conjunto de datos.}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Análisis exploratorio del conjunto de datos}{23}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Experimento 1.}{24}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Experimento 2.}{26}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Comparación de los experimentos.}{29}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusiones}{37}{chapter.5}%
+\contentsline {section}{\numberline {4.3}Experimento 2.}{28}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Comparación de los experimentos}{31}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusiones y trabajo futuro}{37}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusiones}{37}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Trabajo futuro}{38}{section.5.2}%
 \contentsline {chapter}{Bibliografía}{40}{chapter*.20}%
